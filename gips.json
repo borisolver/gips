@@ -1,0 +1,127 @@
+[
+ {
+  "id": "GIP-01",
+  "title": "Answer first, upsell second",
+  "evidence": [
+   "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+   "rpt_r2rBlr1tXIzkv7rMn3ofJw",
+   "rpt_ZS9g3VadKr_ndpqo53mJVA"
+  ]
+ },
+ {
+  "id": "GIP-02",
+  "title": "Every handoff must be a link",
+  "evidence": [
+   "rpt_4FxP2JghhF3UR0iHD-YIvQ",
+   "rpt_MbuOXv_CKEh36TDEcptLqQ",
+   "rpt_Eb_y3T72i4m8XeeZBYZNJw"
+  ]
+ },
+ {
+  "id": "GIP-03",
+  "title": "Ground people and roles before asserting them",
+  "evidence": [
+   "rpt_YpV5CL6aPvNhcyAjd_BtMg",
+   "rpt_LXL-Hj9wL2iFkR_TjjjQYA"
+  ]
+ },
+ {
+  "id": "GIP-04",
+  "title": "Verify the artifact before claiming it",
+  "evidence": [
+   "rpt_hn2nCgNHF3jjy2K_7XTZVg",
+   "rpt_Z3noi2BOv3PAgYu8FMSV2Q"
+  ]
+ },
+ {
+  "id": "GIP-05",
+  "title": "Long-session voice health monitor",
+  "evidence": [
+   "rpt_y0rjQjbGGcYutAzc9FMQdQ",
+   "rpt_YW-XCrIrdooYF3ppkSAAOQ"
+  ]
+ },
+ {
+  "id": "GIP-06",
+  "title": "Outage-aware billing and refunds",
+  "evidence": [
+   "rpt_KuFFnM4Z-lb33TgxIzl5wA",
+   "rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
+   "rpt_1AJXP4VhLA65_mSbvxLruQ"
+  ]
+ },
+ {
+  "id": "GIP-07",
+  "title": "Developer trust: deprecation windows and tool stability",
+  "evidence": [
+   "rpt_-P5MlZXkYy-y4dW-7mzruA",
+   "rpt_Kcv22bwCplmIpbtJfGFfOQ",
+   "rpt_NQn0UblM3zliABWeG1LxHQ"
+  ]
+ },
+ {
+  "id": "GIP-08",
+  "title": "Close the loop: Grok as its own issue-intake",
+  "evidence": [
+   "rpt_AwANPJbi7JmqRYK875mehA",
+   "rpt_JnLFMp4k3npMFy96OG4Djg"
+  ]
+ },
+ {
+  "id": "GIP-09",
+  "title": "Stable memory and persona",
+  "evidence": [
+   "rpt_MD-7bfCQaDTiqBbZ-UGOMA"
+  ]
+ },
+ {
+  "id": "GIP-10",
+  "title": "Errors that say what to do",
+  "evidence": [
+   "rpt_XPhQ4P7ACVTl2EjOtJBTiw"
+  ]
+ },
+ {
+  "id": "GIP-11",
+  "title": "Safe outbound links",
+  "evidence": [
+   "rpt_dfP2rPlhkem703dhcR9bzw"
+  ]
+ },
+ {
+  "id": "GIP-12",
+  "title": "iOS landscape for tables and code",
+  "evidence": [
+   "rpt_tsaIxhPJ16UI3WIrB8tBJg"
+  ]
+ },
+ {
+  "id": "GIP-13",
+  "title": "Companion avatar clipping",
+  "evidence": [
+   "rpt_Fb1fA8vSiXHxcdl8OqBX7g",
+   "rpt_Ya6qahpoNL-osI-diK7ptg"
+  ]
+ },
+ {
+  "id": "GIP-14",
+  "title": "Make standalone Grok as good as Grok-in-X",
+  "evidence": [
+   "rpt_AuKFb37RMoMUct3jC9r1hQ"
+  ]
+ },
+ {
+  "id": "GIP-15",
+  "title": "Explain capability changes in the product",
+  "evidence": [
+   "rpt_Zk6kWSl4vZHKjKNTHCvR_w"
+  ]
+ },
+ {
+  "id": "GIP-16",
+  "title": "Grok Bot parity and setup bugs",
+  "evidence": [
+   "rpt_aM5b1YMDug07my2KI1AMmQ"
+  ]
+ }
+]

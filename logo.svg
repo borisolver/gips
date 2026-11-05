@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="GIPS mark: a slashed-circle head supported by an arm in an orthopedic cast">
+<circle cx="62" cy="40" r="26" fill="#1F2933"/>
+<line x1="34" y1="72" x2="94" y2="10" stroke="#F7F5F0" stroke-width="5"/>
+<line x1="36" y1="70" x2="92" y2="12" stroke="#1F2933" stroke-width="2"/>
+<path d="M22 100 L58 100 Q74 100 78 86 L86 66 L72 60 L64 80 Q62 86 56 86 L22 86 Z" fill="#FFFFFF" stroke="#1F2933" stroke-width="3" stroke-linejoin="round"/>
+<g stroke="#9AA5B1" stroke-width="1.2"><line x1="30" y1="86" x2="34" y2="100"/><line x1="38" y1="86" x2="42" y2="100"/><line x1="46" y1="86" x2="50" y2="100"/><line x1="66" y1="78" x2="78" y2="84"/><line x1="69" y1="70" x2="81" y2="76"/></g>
+<line x1="56" y1="86" x2="60" y2="100" stroke="#2F6FDE" stroke-width="3"/>
+</svg>
