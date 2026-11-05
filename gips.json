@@ -1,127 +1,199 @@
 [
- {
-  "id": "GIP-01",
-  "title": "Answer first, upsell second",
-  "evidence": [
-   "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
-   "rpt_r2rBlr1tXIzkv7rMn3ofJw",
-   "rpt_ZS9g3VadKr_ndpqo53mJVA"
-  ]
- },
- {
-  "id": "GIP-02",
-  "title": "Every handoff must be a link",
-  "evidence": [
-   "rpt_4FxP2JghhF3UR0iHD-YIvQ",
-   "rpt_MbuOXv_CKEh36TDEcptLqQ",
-   "rpt_Eb_y3T72i4m8XeeZBYZNJw"
-  ]
- },
- {
-  "id": "GIP-03",
-  "title": "Ground people and roles before asserting them",
-  "evidence": [
-   "rpt_YpV5CL6aPvNhcyAjd_BtMg",
-   "rpt_LXL-Hj9wL2iFkR_TjjjQYA"
-  ]
- },
- {
-  "id": "GIP-04",
-  "title": "Verify the artifact before claiming it",
-  "evidence": [
-   "rpt_hn2nCgNHF3jjy2K_7XTZVg",
-   "rpt_Z3noi2BOv3PAgYu8FMSV2Q"
-  ]
- },
- {
-  "id": "GIP-05",
-  "title": "Long-session voice health monitor",
-  "evidence": [
-   "rpt_y0rjQjbGGcYutAzc9FMQdQ",
-   "rpt_YW-XCrIrdooYF3ppkSAAOQ"
-  ]
- },
- {
-  "id": "GIP-06",
-  "title": "Outage-aware billing and refunds",
-  "evidence": [
-   "rpt_KuFFnM4Z-lb33TgxIzl5wA",
-   "rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
-   "rpt_1AJXP4VhLA65_mSbvxLruQ"
-  ]
- },
- {
-  "id": "GIP-07",
-  "title": "Developer trust: deprecation windows and tool stability",
-  "evidence": [
-   "rpt_-P5MlZXkYy-y4dW-7mzruA",
-   "rpt_Kcv22bwCplmIpbtJfGFfOQ",
-   "rpt_NQn0UblM3zliABWeG1LxHQ"
-  ]
- },
- {
-  "id": "GIP-08",
-  "title": "Close the loop: Grok as its own issue-intake",
-  "evidence": [
-   "rpt_AwANPJbi7JmqRYK875mehA",
-   "rpt_JnLFMp4k3npMFy96OG4Djg"
-  ]
- },
- {
-  "id": "GIP-09",
-  "title": "Stable memory and persona",
-  "evidence": [
-   "rpt_MD-7bfCQaDTiqBbZ-UGOMA"
-  ]
- },
- {
-  "id": "GIP-10",
-  "title": "Errors that say what to do",
-  "evidence": [
-   "rpt_XPhQ4P7ACVTl2EjOtJBTiw"
-  ]
- },
- {
-  "id": "GIP-11",
-  "title": "Safe outbound links",
-  "evidence": [
-   "rpt_dfP2rPlhkem703dhcR9bzw"
-  ]
- },
- {
-  "id": "GIP-12",
-  "title": "iOS landscape for tables and code",
-  "evidence": [
-   "rpt_tsaIxhPJ16UI3WIrB8tBJg"
-  ]
- },
- {
-  "id": "GIP-13",
-  "title": "Companion avatar clipping",
-  "evidence": [
-   "rpt_Fb1fA8vSiXHxcdl8OqBX7g",
-   "rpt_Ya6qahpoNL-osI-diK7ptg"
-  ]
- },
- {
-  "id": "GIP-14",
-  "title": "Make standalone Grok as good as Grok-in-X",
-  "evidence": [
-   "rpt_AuKFb37RMoMUct3jC9r1hQ"
-  ]
- },
- {
-  "id": "GIP-15",
-  "title": "Explain capability changes in the product",
-  "evidence": [
-   "rpt_Zk6kWSl4vZHKjKNTHCvR_w"
-  ]
- },
- {
-  "id": "GIP-16",
-  "title": "Grok Bot parity and setup bugs",
-  "evidence": [
-   "rpt_aM5b1YMDug07my2KI1AMmQ"
-  ]
- }
+  {
+    "id": "GIP-01",
+    "title": "Answer first. Upsell second.",
+    "fix": "Let a new user try one complete answer before asking them to sign up.",
+    "metric": "First answer → sign-up conversion",
+    "evidence": [
+      "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+      "rpt_r2rBlr1tXIzkv7rMn3ofJw",
+      "rpt_ZS9g3VadKr_ndpqo53mJVA"
+    ],
+    "images": [
+      "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg"
+    ]
+  },
+  {
+    "id": "GIP-02",
+    "title": "Make every handoff a link.",
+    "fix": "Include a working deep link and carry the conversation into the next step.",
+    "metric": "Successful handoffs",
+    "evidence": [
+      "rpt_4FxP2JghhF3UR0iHD-YIvQ",
+      "rpt_MbuOXv_CKEh36TDEcptLqQ",
+      "rpt_Eb_y3T72i4m8XeeZBYZNJw"
+    ],
+    "images": [
+      "evidence/rpt_4FxP2JghhF3UR0iHD-YIvQ.jpg"
+    ]
+  },
+  {
+    "id": "GIP-03",
+    "title": "Check the facts about people.",
+    "fix": "Verify roles and affiliations against a source before stating them as fact.",
+    "metric": "Accuracy of role claims",
+    "evidence": [
+      "rpt_YpV5CL6aPvNhcyAjd_BtMg",
+      "rpt_LXL-Hj9wL2iFkR_TjjjQYA"
+    ],
+    "images": [
+      "evidence/rpt_YpV5CL6aPvNhcyAjd_BtMg.jpg",
+      "evidence/rpt_LXL-Hj9wL2iFkR_TjjjQYA.jpg"
+    ]
+  },
+  {
+    "id": "GIP-04",
+    "title": "Deliver the image you promise.",
+    "fix": "Check that media is attached. Verify requested text before sending an image.",
+    "metric": "Image delivery and text accuracy",
+    "evidence": [
+      "rpt_hn2nCgNHF3jjy2K_7XTZVg",
+      "rpt_Z3noi2BOv3PAgYu8FMSV2Q"
+    ],
+    "images": [
+      "evidence/rpt_hn2nCgNHF3jjy2K_7XTZVg.jpg",
+      "evidence/rpt_Z3noi2BOv3PAgYu8FMSV2Q.jpg"
+    ]
+  },
+  {
+    "id": "GIP-05",
+    "title": "Keep voice clear over time.",
+    "fix": "Monitor audio quality and refresh degraded sessions before a user has to restart.",
+    "metric": "Fewer manual voice resets",
+    "evidence": [
+      "rpt_y0rjQjbGGcYutAzc9FMQdQ",
+      "rpt_YW-XCrIrdooYF3ppkSAAOQ"
+    ],
+    "images": [
+      "evidence/rpt_y0rjQjbGGcYutAzc9FMQdQ.jpg"
+    ]
+  },
+  {
+    "id": "GIP-06",
+    "title": "Make paid access dependable.",
+    "fix": "Reconcile purchases, restore missing access, and offer credits for documented outages.",
+    "metric": "Fewer billing support tickets",
+    "evidence": [
+      "rpt_KuFFnM4Z-lb33TgxIzl5wA",
+      "rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
+      "rpt_1AJXP4VhLA65_mSbvxLruQ"
+    ],
+    "images": []
+  },
+  {
+    "id": "GIP-07",
+    "title": "Give developers time to adapt.",
+    "fix": "Publish a deprecation window, test tool-enabled output, and keep support reachable.",
+    "metric": "API retention after changes",
+    "evidence": [
+      "rpt_-P5MlZXkYy-y4dW-7mzruA",
+      "rpt_Kcv22bwCplmIpbtJfGFfOQ",
+      "rpt_NQn0UblM3zliABWeG1LxHQ"
+    ],
+    "images": [
+      "evidence/rpt_-P5MlZXkYy-y4dW-7mzruA.png",
+      "evidence/rpt_NQn0UblM3zliABWeG1LxHQ.jpg"
+    ]
+  },
+  {
+    "id": "GIP-08",
+    "title": "Turn complaints into tracked fixes.",
+    "fix": "Create a ticket from a bug report, group duplicates, and send a tracking link.",
+    "metric": "Report-to-fix time",
+    "evidence": [
+      "rpt_AwANPJbi7JmqRYK875mehA",
+      "rpt_JnLFMp4k3npMFy96OG4Djg"
+    ],
+    "images": []
+  },
+  {
+    "id": "GIP-09",
+    "title": "Keep memory consistent.",
+    "fix": "Give people an editable memory profile and consistent persona settings across sessions.",
+    "metric": "Repeat-use retention",
+    "evidence": [
+      "rpt_MD-7bfCQaDTiqBbZ-UGOMA"
+    ],
+    "images": []
+  },
+  {
+    "id": "GIP-10",
+    "title": "Make errors actionable.",
+    "fix": "Replace raw errors with a clear next step, a retry, and a status link.",
+    "metric": "Successful retries",
+    "evidence": [
+      "rpt_XPhQ4P7ACVTl2EjOtJBTiw"
+    ],
+    "images": [
+      "evidence/rpt_XPhQ4P7ACVTl2EjOtJBTiw.jpg"
+    ]
+  },
+  {
+    "id": "GIP-11",
+    "title": "Check outbound links.",
+    "fix": "Validate destinations and clearly label external sites before sending users away.",
+    "metric": "Fewer incorrect redirects",
+    "evidence": [
+      "rpt_dfP2rPlhkem703dhcR9bzw"
+    ],
+    "images": [
+      "evidence/rpt_dfP2rPlhkem703dhcR9bzw.jpg"
+    ]
+  },
+  {
+    "id": "GIP-12",
+    "title": "Let tables turn sideways.",
+    "fix": "Support landscape answers and horizontal scrolling for wide tables and code.",
+    "metric": "Mobile task completion",
+    "evidence": [
+      "rpt_tsaIxhPJ16UI3WIrB8tBJg"
+    ],
+    "images": [
+      "evidence/rpt_tsaIxhPJ16UI3WIrB8tBJg.jpg"
+    ]
+  },
+  {
+    "id": "GIP-13",
+    "title": "Keep avatars in one piece.",
+    "fix": "Check animation collisions so hands stay outside clothing.",
+    "metric": "Fewer visible clipping defects",
+    "evidence": [
+      "rpt_Fb1fA8vSiXHxcdl8OqBX7g",
+      "rpt_Ya6qahpoNL-osI-diK7ptg"
+    ],
+    "images": [
+      "evidence/rpt_Fb1fA8vSiXHxcdl8OqBX7g.jpg",
+      "evidence/rpt_Ya6qahpoNL-osI-diK7ptg.jpg"
+    ]
+  },
+  {
+    "id": "GIP-14",
+    "title": "Bring context into standalone Grok.",
+    "fix": "Bring source-linked post explanations and live-topic context into the standalone app.",
+    "metric": "New-user activation",
+    "evidence": [
+      "rpt_AuKFb37RMoMUct3jC9r1hQ"
+    ],
+    "images": []
+  },
+  {
+    "id": "GIP-15",
+    "title": "Explain capability changes.",
+    "fix": "Show what changed, why it changed, and what people can do next.",
+    "metric": "Fewer change-related complaints",
+    "evidence": [
+      "rpt_Zk6kWSl4vZHKjKNTHCvR_w"
+    ],
+    "images": []
+  },
+  {
+    "id": "GIP-16",
+    "title": "Close the desktop–mobile gaps.",
+    "fix": "Align controls, make built-in skills optional, and fix the API-key setup flow.",
+    "metric": "Successful setup and task completion",
+    "evidence": [
+      "rpt_aM5b1YMDug07my2KI1AMmQ"
+    ],
+    "images": []
+  }
 ]

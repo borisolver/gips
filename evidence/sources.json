@@ -1,0 +1,236 @@
+[
+  {
+    "public_id": "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+    "local_image_path": "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg",
+    "has_original_media": true,
+    "sha256": "13ec79d0bed19f2fd1939bf8092ef74d4e53f04a70d6d6e2963eb8b85f20ec09"
+  },
+  {
+    "public_id": "rpt_r2rBlr1tXIzkv7rMn3ofJw",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_r2rBlr1tXIzkv7rMn3ofJw",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_ZS9g3VadKr_ndpqo53mJVA",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_ZS9g3VadKr_ndpqo53mJVA",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_4FxP2JghhF3UR0iHD-YIvQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_4FxP2JghhF3UR0iHD-YIvQ",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_4FxP2JghhF3UR0iHD-YIvQ",
+    "local_image_path": "evidence/rpt_4FxP2JghhF3UR0iHD-YIvQ.jpg",
+    "has_original_media": true,
+    "sha256": "509c4a210f5879884fa8bfae2d6cdda19e528150119f4c861b9a40a2990ffaf7"
+  },
+  {
+    "public_id": "rpt_MbuOXv_CKEh36TDEcptLqQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_MbuOXv_CKEh36TDEcptLqQ",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_Eb_y3T72i4m8XeeZBYZNJw",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_Eb_y3T72i4m8XeeZBYZNJw",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_Eb_y3T72i4m8XeeZBYZNJw",
+    "local_image_path": null,
+    "has_original_media": true,
+    "sha256": "4a4bebdb015458dd0ce066696562c441e3fa53fa4428f442819244827a0b7d7b",
+    "image_omitted_reason": "Profile photo unrelated to the reported login failure."
+  },
+  {
+    "public_id": "rpt_YpV5CL6aPvNhcyAjd_BtMg",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_YpV5CL6aPvNhcyAjd_BtMg",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_YpV5CL6aPvNhcyAjd_BtMg",
+    "local_image_path": "evidence/rpt_YpV5CL6aPvNhcyAjd_BtMg.jpg",
+    "has_original_media": true,
+    "sha256": "fb3679116d83d9203620a8b2b8da310c13e1c7831a4e6f6b246531b67a55f45d"
+  },
+  {
+    "public_id": "rpt_LXL-Hj9wL2iFkR_TjjjQYA",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_LXL-Hj9wL2iFkR_TjjjQYA",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_LXL-Hj9wL2iFkR_TjjjQYA",
+    "local_image_path": "evidence/rpt_LXL-Hj9wL2iFkR_TjjjQYA.jpg",
+    "has_original_media": true,
+    "sha256": "6a88e1daccc11fe52a05557fe1d16f163b67fd645a74aa1e50b06143ede24d46"
+  },
+  {
+    "public_id": "rpt_hn2nCgNHF3jjy2K_7XTZVg",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_hn2nCgNHF3jjy2K_7XTZVg",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_hn2nCgNHF3jjy2K_7XTZVg",
+    "local_image_path": "evidence/rpt_hn2nCgNHF3jjy2K_7XTZVg.jpg",
+    "has_original_media": true,
+    "sha256": "1c02e8dd5c2aad8f629fcc4c86a7ec30b761730d95bed20136653e99f47e04c7"
+  },
+  {
+    "public_id": "rpt_Z3noi2BOv3PAgYu8FMSV2Q",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_Z3noi2BOv3PAgYu8FMSV2Q",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_Z3noi2BOv3PAgYu8FMSV2Q",
+    "local_image_path": "evidence/rpt_Z3noi2BOv3PAgYu8FMSV2Q.jpg",
+    "has_original_media": true,
+    "sha256": "77a976761bdd2058850fe1ff29ff9711b6153a0f13c63979844ed27aaf37ad18"
+  },
+  {
+    "public_id": "rpt_y0rjQjbGGcYutAzc9FMQdQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_y0rjQjbGGcYutAzc9FMQdQ",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_y0rjQjbGGcYutAzc9FMQdQ",
+    "local_image_path": "evidence/rpt_y0rjQjbGGcYutAzc9FMQdQ.jpg",
+    "has_original_media": true,
+    "sha256": "1c7e5e8167c51ed4ade1f180e1840456e2100f89ccb9468013f71db88401a8d1"
+  },
+  {
+    "public_id": "rpt_YW-XCrIrdooYF3ppkSAAOQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_YW-XCrIrdooYF3ppkSAAOQ",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_KuFFnM4Z-lb33TgxIzl5wA",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_KuFFnM4Z-lb33TgxIzl5wA",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_1AJXP4VhLA65_mSbvxLruQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_1AJXP4VhLA65_mSbvxLruQ",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_-P5MlZXkYy-y4dW-7mzruA",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_-P5MlZXkYy-y4dW-7mzruA",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_-P5MlZXkYy-y4dW-7mzruA",
+    "local_image_path": "evidence/rpt_-P5MlZXkYy-y4dW-7mzruA.png",
+    "has_original_media": true,
+    "sha256": "2b639717239de2988e739c3862ea0b39df9ecb9f8f23b28e82c81612c291130f"
+  },
+  {
+    "public_id": "rpt_Kcv22bwCplmIpbtJfGFfOQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_Kcv22bwCplmIpbtJfGFfOQ",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_NQn0UblM3zliABWeG1LxHQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_NQn0UblM3zliABWeG1LxHQ",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_NQn0UblM3zliABWeG1LxHQ",
+    "local_image_path": "evidence/rpt_NQn0UblM3zliABWeG1LxHQ.jpg",
+    "has_original_media": true,
+    "sha256": "3604f3b2e560bca84e96b7ee71081819bb2555f49b69f467ee67079d4e109f6b"
+  },
+  {
+    "public_id": "rpt_AwANPJbi7JmqRYK875mehA",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_AwANPJbi7JmqRYK875mehA",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_JnLFMp4k3npMFy96OG4Djg",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_JnLFMp4k3npMFy96OG4Djg",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_MD-7bfCQaDTiqBbZ-UGOMA",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_MD-7bfCQaDTiqBbZ-UGOMA",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_XPhQ4P7ACVTl2EjOtJBTiw",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_XPhQ4P7ACVTl2EjOtJBTiw",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_XPhQ4P7ACVTl2EjOtJBTiw",
+    "local_image_path": "evidence/rpt_XPhQ4P7ACVTl2EjOtJBTiw.jpg",
+    "has_original_media": true,
+    "sha256": "884bc9f6bb6f728e8c04fa4dc15a07855ae08de5a4d1ca433df16f7892c4fc21"
+  },
+  {
+    "public_id": "rpt_dfP2rPlhkem703dhcR9bzw",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_dfP2rPlhkem703dhcR9bzw",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_dfP2rPlhkem703dhcR9bzw",
+    "local_image_path": "evidence/rpt_dfP2rPlhkem703dhcR9bzw.jpg",
+    "has_original_media": true,
+    "sha256": "50b3791c50ac6ebe307ae68ff3b633c8dd25650321eb22afbf24ae6750d29c2d"
+  },
+  {
+    "public_id": "rpt_tsaIxhPJ16UI3WIrB8tBJg",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_tsaIxhPJ16UI3WIrB8tBJg",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_tsaIxhPJ16UI3WIrB8tBJg",
+    "local_image_path": "evidence/rpt_tsaIxhPJ16UI3WIrB8tBJg.jpg",
+    "has_original_media": true,
+    "sha256": "7c0129e29f2d588e434ec2eb969dbaea5f8248d594b75866b5c3cb7d470a9e45"
+  },
+  {
+    "public_id": "rpt_Fb1fA8vSiXHxcdl8OqBX7g",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_Fb1fA8vSiXHxcdl8OqBX7g",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_Fb1fA8vSiXHxcdl8OqBX7g",
+    "local_image_path": "evidence/rpt_Fb1fA8vSiXHxcdl8OqBX7g.jpg",
+    "has_original_media": true,
+    "sha256": "31eee7a8af38db64b169de2b927eeb85f8e239431a1a9eb75dac5145ca0863a4"
+  },
+  {
+    "public_id": "rpt_Ya6qahpoNL-osI-diK7ptg",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_Ya6qahpoNL-osI-diK7ptg",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_Ya6qahpoNL-osI-diK7ptg",
+    "local_image_path": "evidence/rpt_Ya6qahpoNL-osI-diK7ptg.jpg",
+    "has_original_media": true,
+    "sha256": "bc57f212276c9f7d571c63e362fdc627d184eab05054fc89b8c280ddc3d8b358"
+  },
+  {
+    "public_id": "rpt_AuKFb37RMoMUct3jC9r1hQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_AuKFb37RMoMUct3jC9r1hQ",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_AuKFb37RMoMUct3jC9r1hQ",
+    "local_image_path": null,
+    "has_original_media": true,
+    "sha256": "351581babf41299d74462a11f39affbaf765e0cb62b6e9479831f975b2898a41",
+    "image_omitted_reason": "Unrelated social post; does not depict the reported Grok comparison."
+  },
+  {
+    "public_id": "rpt_Zk6kWSl4vZHKjKNTHCvR_w",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_Zk6kWSl4vZHKjKNTHCvR_w",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  },
+  {
+    "public_id": "rpt_aM5b1YMDug07my2KI1AMmQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_aM5b1YMDug07my2KI1AMmQ",
+    "image_source": null,
+    "local_image_path": null,
+    "has_original_media": false,
+    "sha256": null
+  }
+]

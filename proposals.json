@@ -1,0 +1,408 @@
+[
+  {
+    "id": "GIP-01",
+    "title": "Answer first. Upsell second.",
+    "fix": "Let a new user try one complete answer before asking them to sign up.",
+    "metric": "First answer → sign-up conversion",
+    "caption": "A sign-up wall appears before the first answer.",
+    "evidence": [
+      {
+        "id": "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+        "label": "Grok Web Immediate Auth-Wall Gate Blocks Query Resolution",
+        "url": "https://www.cleanapp.io/digital/report/rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+        "source_date": "",
+        "recorded_date": "2026-10-15",
+        "image": "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg",
+        "width": 2048,
+        "height": 716
+      },
+      {
+        "id": "rpt_r2rBlr1tXIzkv7rMn3ofJw",
+        "label": "X Restricts In-Thread Grok AI Assistant Behind Premium Paywall",
+        "url": "https://www.cleanapp.io/digital/report/rpt_r2rBlr1tXIzkv7rMn3ofJw",
+        "source_date": "2026-03-11",
+        "recorded_date": "2026-09-09",
+        "image": null
+      },
+      {
+        "id": "rpt_ZS9g3VadKr_ndpqo53mJVA",
+        "label": "Microsoft - Ux",
+        "url": "https://www.cleanapp.io/digital/report/rpt_ZS9g3VadKr_ndpqo53mJVA",
+        "source_date": "2025-09-19",
+        "recorded_date": "2025-12-19",
+        "image": null
+      }
+    ]
+  },
+  {
+    "id": "GIP-02",
+    "title": "Make every handoff a link.",
+    "fix": "Include a working deep link and carry the conversation into the next step.",
+    "metric": "Successful handoffs",
+    "caption": "A request to switch chats leaves the user without a link.",
+    "evidence": [
+      {
+        "id": "rpt_4FxP2JghhF3UR0iHD-YIvQ",
+        "label": "Chatbot Inability to Authenticate in Group Thread and Ambiguous 1:1 Redirect",
+        "url": "https://www.cleanapp.io/digital/report/rpt_4FxP2JghhF3UR0iHD-YIvQ",
+        "source_date": "",
+        "recorded_date": "2026-10-15",
+        "image": "evidence/rpt_4FxP2JghhF3UR0iHD-YIvQ.jpg",
+        "width": 2048,
+        "height": 1099
+      },
+      {
+        "id": "rpt_MbuOXv_CKEh36TDEcptLqQ",
+        "label": "Grok Sign-On Flow from X to GrokBot Malfunctioning",
+        "url": "https://www.cleanapp.io/digital/report/rpt_MbuOXv_CKEh36TDEcptLqQ",
+        "source_date": "",
+        "recorded_date": "2026-10-15",
+        "image": null
+      },
+      {
+        "id": "rpt_Eb_y3T72i4m8XeeZBYZNJw",
+        "label": "x.ai Grok 3 Web Login Failure",
+        "url": "https://www.cleanapp.io/digital/report/rpt_Eb_y3T72i4m8XeeZBYZNJw",
+        "source_date": "2026-03-24",
+        "recorded_date": "2026-03-24",
+        "image": null,
+        "image_omitted_reason": "Profile photo unrelated to the reported login failure."
+      }
+    ]
+  },
+  {
+    "id": "GIP-03",
+    "title": "Check the facts about people.",
+    "fix": "Verify roles and affiliations against a source before stating them as fact.",
+    "metric": "Accuracy of role claims",
+    "caption": "Reports flag confident claims about people and affiliations.",
+    "evidence": [
+      {
+        "id": "rpt_YpV5CL6aPvNhcyAjd_BtMg",
+        "label": "Grok AI Executive Metadata Hallucination",
+        "url": "https://www.cleanapp.io/digital/report/rpt_YpV5CL6aPvNhcyAjd_BtMg",
+        "source_date": "",
+        "recorded_date": "2026-02-11",
+        "image": "evidence/rpt_YpV5CL6aPvNhcyAjd_BtMg.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "id": "rpt_LXL-Hj9wL2iFkR_TjjjQYA",
+        "label": "Grok Misread xAI Integration Assertion",
+        "url": "https://www.cleanapp.io/digital/report/rpt_LXL-Hj9wL2iFkR_TjjjQYA",
+        "source_date": "",
+        "recorded_date": "2025-08-14",
+        "image": "evidence/rpt_LXL-Hj9wL2iFkR_TjjjQYA.jpg",
+        "width": 562,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "GIP-04",
+    "title": "Deliver the image you promise.",
+    "fix": "Check that media is attached. Verify requested text before sending an image.",
+    "metric": "Image delivery and text accuracy",
+    "caption": "A promised image is missing; generated lettering goes wrong.",
+    "evidence": [
+      {
+        "id": "rpt_hn2nCgNHF3jjy2K_7XTZVg",
+        "label": "Misleading Response on Grok's Image Generation",
+        "url": "https://www.cleanapp.io/digital/report/rpt_hn2nCgNHF3jjy2K_7XTZVg",
+        "source_date": "",
+        "recorded_date": "2025-08-18",
+        "image": "evidence/rpt_hn2nCgNHF3jjy2K_7XTZVg.jpg",
+        "width": 461,
+        "height": 1000
+      },
+      {
+        "id": "rpt_Z3noi2BOv3PAgYu8FMSV2Q",
+        "label": "Grok Render Failure of Tesla Cybertruck",
+        "url": "https://www.cleanapp.io/digital/report/rpt_Z3noi2BOv3PAgYu8FMSV2Q",
+        "source_date": "",
+        "recorded_date": "2025-08-08",
+        "image": "evidence/rpt_Z3noi2BOv3PAgYu8FMSV2Q.jpg",
+        "width": 948,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "GIP-05",
+    "title": "Keep voice clear over time.",
+    "fix": "Monitor audio quality and refresh degraded sessions before a user has to restart.",
+    "metric": "Fewer manual voice resets",
+    "caption": "A user reports voice quality deteriorating during a Tesla session.",
+    "evidence": [
+      {
+        "id": "rpt_y0rjQjbGGcYutAzc9FMQdQ",
+        "label": "Grok Voice Bug in Tesla",
+        "url": "https://www.cleanapp.io/digital/report/rpt_y0rjQjbGGcYutAzc9FMQdQ",
+        "source_date": "",
+        "recorded_date": "2025-08-17",
+        "image": "evidence/rpt_y0rjQjbGGcYutAzc9FMQdQ.jpg",
+        "width": 562,
+        "height": 1000
+      },
+      {
+        "id": "rpt_YW-XCrIrdooYF3ppkSAAOQ",
+        "label": "SpaceX Deploys Grok Voice AI for Starlink Customer Support Calls",
+        "url": "https://www.cleanapp.io/digital/report/rpt_YW-XCrIrdooYF3ppkSAAOQ",
+        "source_date": "2026-04-21",
+        "recorded_date": "2026-09-10",
+        "image": null
+      }
+    ]
+  },
+  {
+    "id": "GIP-06",
+    "title": "Make paid access dependable.",
+    "fix": "Reconcile purchases, restore missing access, and offer credits for documented outages.",
+    "metric": "Fewer billing support tickets",
+    "caption": "Reports describe paid access failures and stalled loading.",
+    "evidence": [
+      {
+        "id": "rpt_KuFFnM4Z-lb33TgxIzl5wA",
+        "label": "Grok Service Outage and Denied Subscription Refund",
+        "url": "https://www.cleanapp.io/digital/report/rpt_KuFFnM4Z-lb33TgxIzl5wA",
+        "source_date": "2026-01-28",
+        "recorded_date": "2026-10-09",
+        "image": null
+      },
+      {
+        "id": "rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
+        "label": "Apple - Billing",
+        "url": "https://www.cleanapp.io/digital/report/rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
+        "source_date": "2025-09-07",
+        "recorded_date": "2025-12-19",
+        "image": null
+      },
+      {
+        "id": "rpt_1AJXP4VhLA65_mSbvxLruQ",
+        "label": "Grok Application Freezes at 98% Loading",
+        "url": "https://www.cleanapp.io/digital/report/rpt_1AJXP4VhLA65_mSbvxLruQ",
+        "source_date": "2026-02-06",
+        "recorded_date": "2026-10-08",
+        "image": null
+      }
+    ]
+  },
+  {
+    "id": "GIP-07",
+    "title": "Give developers time to adapt.",
+    "fix": "Publish a deprecation window, test tool-enabled output, and keep support reachable.",
+    "metric": "API retention after changes",
+    "caption": "Reports highlight short retirement notices and unreliable tools.",
+    "evidence": [
+      {
+        "id": "rpt_-P5MlZXkYy-y4dW-7mzruA",
+        "label": "xAI API Hard Model Retirement & Service Interruption Risk",
+        "url": "https://www.cleanapp.io/digital/report/rpt_-P5MlZXkYy-y4dW-7mzruA",
+        "source_date": "2026-05-06",
+        "recorded_date": "2026-05-06",
+        "image": "evidence/rpt_-P5MlZXkYy-y4dW-7mzruA.png",
+        "width": 1248,
+        "height": 1394
+      },
+      {
+        "id": "rpt_Kcv22bwCplmIpbtJfGFfOQ",
+        "label": "Grok 4 Performance Degradation when Internet Search Tool is Enabled",
+        "url": "https://www.cleanapp.io/digital/report/rpt_Kcv22bwCplmIpbtJfGFfOQ",
+        "source_date": "2025-08-17",
+        "recorded_date": "2025-12-17",
+        "image": null
+      },
+      {
+        "id": "rpt_NQn0UblM3zliABWeG1LxHQ",
+        "label": "Non-functional Contact Support Buttons on x.ai Contact Page",
+        "url": "https://www.cleanapp.io/digital/report/rpt_NQn0UblM3zliABWeG1LxHQ",
+        "source_date": "",
+        "recorded_date": "2025-08-14",
+        "image": "evidence/rpt_NQn0UblM3zliABWeG1LxHQ.jpg",
+        "width": 562,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "GIP-08",
+    "title": "Turn complaints into tracked fixes.",
+    "fix": "Create a ticket from a bug report, group duplicates, and send a tracking link.",
+    "metric": "Report-to-fix time",
+    "caption": "Users ask Grok for help escalating product problems.",
+    "evidence": [
+      {
+        "id": "rpt_AwANPJbi7JmqRYK875mehA",
+        "label": "CleanApp report (seq=308958) loads with no content, possibly linked to Grok backend partitioning issue",
+        "url": "https://www.cleanapp.io/digital/report/rpt_AwANPJbi7JmqRYK875mehA",
+        "source_date": "",
+        "recorded_date": "2025-11-25",
+        "image": null
+      },
+      {
+        "id": "rpt_JnLFMp4k3npMFy96OG4Djg",
+        "label": "CleanApp report link error: 'No reports found' for Grok-related issue",
+        "url": "https://www.cleanapp.io/digital/report/rpt_JnLFMp4k3npMFy96OG4Djg",
+        "source_date": "",
+        "recorded_date": "2025-11-25",
+        "image": null
+      }
+    ]
+  },
+  {
+    "id": "GIP-09",
+    "title": "Keep memory consistent.",
+    "fix": "Give people an editable memory profile and consistent persona settings across sessions.",
+    "metric": "Repeat-use retention",
+    "caption": "A request for persistent memory and fewer personality swings.",
+    "evidence": [
+      {
+        "id": "rpt_MD-7bfCQaDTiqBbZ-UGOMA",
+        "label": "Grok - Feature Request",
+        "url": "https://www.cleanapp.io/digital/report/rpt_MD-7bfCQaDTiqBbZ-UGOMA",
+        "source_date": "2025-09-05",
+        "recorded_date": "2025-12-19",
+        "image": null
+      }
+    ]
+  },
+  {
+    "id": "GIP-10",
+    "title": "Make errors actionable.",
+    "fix": "Replace raw errors with a clear next step, a retry, and a status link.",
+    "metric": "Successful retries",
+    "caption": "A Grok reply discusses a reported recurring app error.",
+    "evidence": [
+      {
+        "id": "rpt_XPhQ4P7ACVTl2EjOtJBTiw",
+        "label": "Unexpected Content-Type Error in Grok App",
+        "url": "https://www.cleanapp.io/digital/report/rpt_XPhQ4P7ACVTl2EjOtJBTiw",
+        "source_date": "",
+        "recorded_date": "2025-08-14",
+        "image": "evidence/rpt_XPhQ4P7ACVTl2EjOtJBTiw.jpg",
+        "width": 1000,
+        "height": 874
+      }
+    ]
+  },
+  {
+    "id": "GIP-11",
+    "title": "Check outbound links.",
+    "fix": "Validate destinations and clearly label external sites before sending users away.",
+    "metric": "Fewer incorrect redirects",
+    "caption": "A report flags an unrelated paid destination.",
+    "evidence": [
+      {
+        "id": "rpt_dfP2rPlhkem703dhcR9bzw",
+        "label": "Grok Redirect Issue Leading to Unrelated External Site",
+        "url": "https://www.cleanapp.io/digital/report/rpt_dfP2rPlhkem703dhcR9bzw",
+        "source_date": "",
+        "recorded_date": "2025-08-14",
+        "image": "evidence/rpt_dfP2rPlhkem703dhcR9bzw.jpg",
+        "width": 562,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "GIP-12",
+    "title": "Let tables turn sideways.",
+    "fix": "Support landscape answers and horizontal scrolling for wide tables and code.",
+    "metric": "Mobile task completion",
+    "caption": "A phone screenshot shows a wide table constrained to portrait.",
+    "evidence": [
+      {
+        "id": "rpt_tsaIxhPJ16UI3WIrB8tBJg",
+        "label": "Grok iOS App Fails to Auto-Rotate to Landscape View",
+        "url": "https://www.cleanapp.io/digital/report/rpt_tsaIxhPJ16UI3WIrB8tBJg",
+        "source_date": "",
+        "recorded_date": "2025-11-24",
+        "image": "evidence/rpt_tsaIxhPJ16UI3WIrB8tBJg.jpg",
+        "width": 461,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "GIP-13",
+    "title": "Keep avatars in one piece.",
+    "fix": "Check animation collisions so hands stay outside clothing.",
+    "metric": "Fewer visible clipping defects",
+    "caption": "Two reports capture hands clipping through clothing.",
+    "evidence": [
+      {
+        "id": "rpt_Fb1fA8vSiXHxcdl8OqBX7g",
+        "label": "Grok Defect in Animation - Character Clipping Issue",
+        "url": "https://www.cleanapp.io/digital/report/rpt_Fb1fA8vSiXHxcdl8OqBX7g",
+        "source_date": "",
+        "recorded_date": "2025-08-21",
+        "image": "evidence/rpt_Fb1fA8vSiXHxcdl8OqBX7g.jpg",
+        "width": 461,
+        "height": 1000
+      },
+      {
+        "id": "rpt_Ya6qahpoNL-osI-diK7ptg",
+        "label": "Animation Defects in Grok Interface",
+        "url": "https://www.cleanapp.io/digital/report/rpt_Ya6qahpoNL-osI-diK7ptg",
+        "source_date": "",
+        "recorded_date": "2025-08-21",
+        "image": "evidence/rpt_Ya6qahpoNL-osI-diK7ptg.jpg",
+        "width": 461,
+        "height": 1000
+      }
+    ]
+  },
+  {
+    "id": "GIP-14",
+    "title": "Bring context into standalone Grok.",
+    "fix": "Bring source-linked post explanations and live-topic context into the standalone app.",
+    "metric": "New-user activation",
+    "caption": "A user values post explanations but finds standalone chat weaker.",
+    "evidence": [
+      {
+        "id": "rpt_AuKFb37RMoMUct3jC9r1hQ",
+        "label": "UX Feedback: Grok excels at explaining Twitter posts but standalone feature is unimpressive",
+        "url": "https://www.cleanapp.io/digital/report/rpt_AuKFb37RMoMUct3jC9r1hQ",
+        "source_date": "2025-01-17",
+        "recorded_date": "2025-12-13",
+        "image": null,
+        "image_omitted_reason": "Unrelated social post; does not depict the reported Grok comparison."
+      }
+    ]
+  },
+  {
+    "id": "GIP-15",
+    "title": "Explain capability changes.",
+    "fix": "Show what changed, why it changed, and what people can do next.",
+    "metric": "Fewer change-related complaints",
+    "caption": "A report asks for clarity around image-tool restrictions.",
+    "evidence": [
+      {
+        "id": "rpt_Zk6kWSl4vZHKjKNTHCvR_w",
+        "label": "Grok's Image Tool Banned: Policy Change Impacts Digital Service Functionality",
+        "url": "https://www.cleanapp.io/digital/report/rpt_Zk6kWSl4vZHKjKNTHCvR_w",
+        "source_date": "2026-01-10",
+        "recorded_date": "2026-01-10",
+        "image": null
+      }
+    ]
+  },
+  {
+    "id": "GIP-16",
+    "title": "Close the desktop–mobile gaps.",
+    "fix": "Align controls, make built-in skills optional, and fix the API-key setup flow.",
+    "metric": "Successful setup and task completion",
+    "caption": "A report lists inconsistent controls and Grok Bot setup problems.",
+    "evidence": [
+      {
+        "id": "rpt_aM5b1YMDug07my2KI1AMmQ",
+        "label": "Multiple Functional and Parity Deficiencies Reported in Grok Bot",
+        "url": "https://www.cleanapp.io/digital/report/rpt_aM5b1YMDug07my2KI1AMmQ",
+        "source_date": "2026-10-15",
+        "recorded_date": "2026-10-15",
+        "image": null
+      }
+    ]
+  }
+]

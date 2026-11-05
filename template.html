@@ -1,49 +1,65 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GIPS — Grok Improvement Proposals</title><meta name="description" content="Evidence-based repair proposals for Grok, sourced from real user reports.">
-<link rel="icon" href="logo.svg"><style>
-:root{--ink:#1F2933;--plaster:#F7F5F0;--white:#fff;--blue:#2F6FDE;--gauze:#9AA5B1;--rule:#E4E1D8}
-*{box-sizing:border-box}body{margin:0;background:var(--plaster);color:var(--ink);font:17px/1.6 "IBM Plex Sans","Helvetica Neue",Arial,sans-serif}
-.wrap{max-width:900px;margin:0 auto;padding:0 24px}a{color:var(--blue)}
-.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace}
-header.hero{padding:64px 0 40px;border-bottom:1px solid var(--rule)}
-.brand{display:flex;align-items:center;gap:20px}.brand img{width:96px;height:96px}
-.brand h1{font-size:56px;letter-spacing:.18em;margin:0;font-weight:600}.brand p{margin:0;letter-spacing:.06em;color:#52606D}
-.thesis{font-size:26px;line-height:1.35;margin:36px 0 8px;max-width:760px}
-.note{font-size:13px;color:#52606D}
-section{padding:40px 0;border-bottom:1px solid var(--rule)}h2{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:#52606D;margin:0 0 16px}
-.summary ol{padding-left:20px}.summary li{margin:6px 0}
-.toc{columns:2;padding-left:0;list-style:none;font-size:15px}.toc li{margin:4px 0}.toc a{text-decoration:none;color:var(--ink)}.toc b{color:var(--blue);font-family:"IBM Plex Mono",monospace;font-weight:500;margin-right:6px}
-.gip{background:var(--white);border:1px solid var(--rule);border-left:6px solid var(--blue);padding:24px 28px;margin:20px 0;border-radius:2px}
-.gip header{display:flex;gap:14px;align-items:baseline}.gip .id{font-family:"IBM Plex Mono",monospace;color:var(--blue);font-size:14px}.gip h3{margin:0;font-size:22px}
-dl{margin:12px 0 0}dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#52606D;margin-top:14px}dd{margin:4px 0 0}dd ul{padding-left:18px;margin:4px 0}dd li{font-size:15px}dd li a{font-family:"IBM Plex Mono",monospace;font-size:12px;margin-right:6px}
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:0;list-style:none;counter-reset:s}.steps li{background:var(--white);border:1px solid var(--rule);padding:14px;font-size:15px}.steps li b{display:block;color:var(--blue);font-family:"IBM Plex Mono",monospace}
-footer{padding:32px 0 64px;font-size:14px;color:#52606D}
-@media(max-width:700px){.brand h1{font-size:40px}.toc{columns:1}.steps{grid-template-columns:1fr 1fr}}
-.dur{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:baseline;background:var(--plaster);border:1px dashed var(--gauze);padding:10px 14px;margin:14px 0 0;font-size:14px}.dur .big{font:600 30px "IBM Plex Mono",monospace;color:var(--blue)}.d{font-family:"IBM Plex Mono",monospace;font-size:12px;color:#52606D}
-.ctl{font-size:14px;margin:8px 0}.ctl button{font:inherit;background:var(--white);border:1px solid var(--gauze);padding:4px 10px;margin-right:6px;cursor:pointer}
-</style></head><body><div class="wrap">
-<header class="hero"><div class="brand"><img src="logo.svg" alt="GIPS mark"><div><h1>GIPS</h1><p>Grok Improvement Proposals</p></div></div>
-<p class="thesis">A cast does not complain about a fracture. It sets it. GIPS turns real, documented Grok failures into specific, testable repairs.</p>
-<p class="note">Prepared for SpaceX / xAI decision-makers · Prototype v0 · November 2026 · Independent proposal; not affiliated with or endorsed by xAI.</p></header>
-
-<section class="summary"><h2>Two-minute summary</h2><ol>
-<li><b>Source:</b> all 16 proposals below cite public user reports from the CleanApp corpus (~1.29M AI-analyzed reports). Each report ID links to the original record.</li>
-<li><b>Pattern:</b> Grok's model quality is rarely the complaint. The friction is at the seams: gates before value, handoffs without links, unverified claims about people and artifacts, billing after outages, developer predictability.</li>
-<li><b>Ask:</b> each GIP is scoped so one engineer and one PM could ship or A/B test it in a sprint, with a named metric.</li>
-<li><b>Persistence:</b> each card shows how long the problem has been publicly documented. Several have been open for over a year.</li>
-<li><b>Highest leverage first:</b> GIP-01 (answer before upsell), GIP-02 (every handoff is a link), GIP-03 (ground people and roles).</li>
-</ol><ul class="toc">{{TOC}}</ul></section>
-
-<section><h2>Proposals, ranked by leverage</h2><div class="ctl">Sort: <button onclick="srt('rank')">Rank</button><button onclick="srt('days')">Longest open</button></div><div id="list">{{CARDS}}</div>
-<p class="note">* "Open" means: first public report date to the date this page was compiled, with no fix or resolution recorded in the CleanApp record. It is not a confirmation from xAI that the issue is unresolved. Impact lines are estimates and stated reasoning, not measured results. Report counts are not affected-user counts; reports reflect what users chose to write down.</p></section>
-
-<section><h2>Method</h2><ol class="steps">
-<li><b>1 · Collect</b>Reports from app, web, X, Bluesky, Reddit and GitHub enter one corpus.</li>
-<li><b>2 · Structure</b>AI extracts product, surface, severity and a neutral summary; original wording is kept.</li>
-<li><b>3 · Cluster</b>Related reports are grouped so a pattern, not an anecdote, drives each proposal.</li>
-<li><b>4 · Prescribe</b>Each cluster becomes a GIP: problem, evidence, a shippable fix, and a metric to prove it.</li></ol></section>
-
-<section><h2>About</h2><p><b>Boris N. Mamlyuk, J.D., Ph.D.</b> Founder of CleanApp (patented GPS-based reporting; ~1M installs; ~1.29M AI-analyzed reports). Previously led a $5.5M-seed blockchain infrastructure company (through April 2026) and was a tenured law professor for 12 years. Swiss/US citizen based in Zurich, open to relocating. Applying to SpaceX since 2013; camped a month at Boca Chica with his family for SN7.</p></section>
-
-<footer>Contact: Boris Mamlyuk · <a href="https://x.com/cleanapp">@cleanapp on X</a><br>The slashed-circle mark is an abstract nod to Grok, used in a fan/proposal context. Grok and xAI are trademarks of their owners.</footer>
-</div><script>function srt(k){const l=document.getElementById("list");[...l.children].sort((a,b)=>k=="days"?b.dataset.days-a.dataset.days:a.dataset.rank-b.dataset.rank).forEach(e=>l.appendChild(e))}</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>GIPS — Grok Improvement Proposals</title>
+  <meta name="description" content="Real reports. Specific repairs. Explore 16 evidence-backed proposals for a better Grok, with original screenshots and clear outcomes to test.">
+  <meta property="og:title" content="GIPS — Small fixes. Better Grok.">
+  <meta property="og:description" content="16 improvement proposals. 29 public reports. See the evidence, then the fix.">
+  <meta property="og:image" content="logo.png">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#proposals">Skip to proposals</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="GIPS home">GIPS<span> / </span><span class="header-description">Grok Improvement Proposals</span></a>
+    <nav aria-label="Main navigation"><a href="#proposals">The evidence</a><a href="#contact">Get in touch <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <img class="logo" src="logo.png" width="2172" height="724" alt="GIPS — Grok Improvement Proposals, with a cast around the mark" fetchpriority="high">
+        <p class="eyebrow">Independent proposals · November 2026</p>
+        <h1 id="hero-title">Small fixes.<br>Better Grok.</h1>
+        <p class="hero-intro">Less friction. More trust. {{PROPOSAL_COUNT}} specific repairs, grounded in {{REPORT_COUNT}} public reports.</p>
+        <a class="button" href="#proposals">Explore the evidence <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-evidence">
+        <p class="eyebrow proof-label">Start with the first answer</p>
+        {{FEATURED}}
+      </div>
+    </section>
+    <section class="evidence-section section-wrap" id="proposals" aria-labelledby="evidence-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">From report to repair</p><h2 id="evidence-title">See the friction.<br>Test the fix.</h2></div>
+        <p>{{IMAGE_COUNT}} original images, right here.<br>Select any image for a closer look.</p>
+      </div>
+      <div class="proposal-grid">{{VISUAL_PROPOSALS}}</div>
+    </section>
+    <section class="text-section section-wrap" aria-labelledby="text-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">The rest of the repair list</p><h2 id="text-title">{{TEXT_PROPOSAL_COUNT}} more ways forward.</h2></div>
+        <p>Additional proposals from report text.<br>Open the sources for context.</p>
+      </div>
+      <div class="text-proposals">{{TEXT_PROPOSALS}}</div>
+    </section>
+    <aside class="source-note section-wrap" aria-label="About the evidence">
+      <p>Evidence from public <a href="https://www.cleanapp.io" target="_blank" rel="noopener noreferrer">CleanApp reports</a>. Reports describe observed or reported experiences; current resolution is unverified. Fixes and measures are proposals, not measured results.</p>
+    </aside>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div><p class="eyebrow">Let's ship the improvements</p><h2 id="contact-title">SpaceX, get in touch.</h2><p>Turn this evidence into a better Grok experience.</p></div>
+      <a class="button button-light" href="https://x.com/cleanapp" target="_blank" rel="noopener noreferrer">@cleanapp on X <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="site-footer"><span>GIPS · Grok Improvement Proposals</span><p>Independent project. Not affiliated with or endorsed by SpaceX or xAI.</p><a href="gips.json">Proposal data <span aria-hidden="true">↗</span></a></footer>
+  <dialog id="image-viewer" aria-label="Original report image">
+    <div class="viewer-toolbar"><span id="viewer-count" aria-live="polite"></span><button id="viewer-close" type="button" aria-label="Close image">Close <span aria-hidden="true">×</span></button></div>
+    <div class="viewer-stage"><img id="viewer-image" alt=""></div>
+    <div class="viewer-bottom"><div><p id="viewer-caption"></p><div class="viewer-links"><a id="viewer-source" target="_blank" rel="noopener noreferrer">View source report ↗</a><a id="viewer-original" target="_blank" rel="noopener noreferrer">Open full-size image ↗</a></div></div><div class="viewer-controls"><button id="viewer-prev" type="button" aria-label="Previous image">←</button><button id="viewer-next" type="button" aria-label="Next image">→</button></div></div>
+  </dialog>
+</body>
+</html>
