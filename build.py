@@ -139,7 +139,7 @@ def render_spotlight(proposal, rank=1):
         return '<div class="priority-spotlight-content"><p>New proposals will appear here.</p></div>'
     label = proposal.get("priority_label") or "Unranked"
     return (
-        '<div class="priority-spotlight-content"><p class="eyebrow proof-label">Evidence spotlight</p>'
+        '<div class="priority-spotlight-content">'
         + images(proposal, eager=True, first_only=True)
         + f'<div class="spotlight-copy"><p class="eyebrow">GIPS #{number(proposal):03d} · {esc(label)} priority · Urgency #{rank}</p>'
         f'<h2><a href="#{esc(proposal["id"].lower())}">{esc(proposal["title"])}</a></h2>'

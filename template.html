@@ -23,17 +23,14 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <img class="logo" src="logo.png" width="2172" height="724" alt="GIPS — Grok Improvement Proposals, with a cast around the mark" fetchpriority="high">
-        <p class="eyebrow">Independent proposals · Always improving</p>
         <h1 id="hero-title">Big fixes,<br>Smarter Grok.</h1>
-        <p class="hero-intro">Less friction. More trust. <span data-count="proposals">{{PROPOSAL_COUNT}}</span> specific repairs, grounded in <span data-count="reports">{{REPORT_COUNT}}</span> public reports.</p>
-        <a class="button" href="#proposals">Explore the evidence <span aria-hidden="true">↓</span></a>
+        <a class="button" href="#proposals"><span>Explore <span data-count="proposals">{{PROPOSAL_COUNT}}</span> GIPs</span> <span aria-hidden="true">↓</span></a>
       </div>
       <div class="hero-evidence" id="priority-spotlight" data-content-hash="{{SPOTLIGHT_HASH}}">{{SPOTLIGHT}}</div>
     </section>
     <section class="evidence-section section-wrap" id="proposals" aria-labelledby="evidence-title">
       <div class="section-heading">
         <div><p class="eyebrow">From report to repair</p><h2 id="evidence-title">See the friction.<br>Test the fix.</h2></div>
-        <p><span data-count="images">{{IMAGE_COUNT}}</span> original images, right here.<br>Select any image for a closer look.</p>
       </div>
       <div class="list-toolbar">
         <div class="sort-controls" role="group" aria-label="Sort proposals" hidden>

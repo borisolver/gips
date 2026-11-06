@@ -31,7 +31,7 @@ h1{font-size:clamp(44px,4.4vw,68px);margin:16px 0 20px}
 .hero-intro{font-size:18px;max-width:360px;color:var(--muted);line-height:1.55}
 .button{display:inline-flex;align-items:center;justify-content:space-between;gap:38px;padding:14px 22px;text-decoration:none;background:var(--accent);color:var(--white);font-weight:500;font-size:14px;border:1px solid transparent;transition:background .18s ease,transform .18s ease}
 .button:hover{background:#1c503b;transform:translateY(-2px)}
-.button span{font-size:20px;line-height:1}
+.button > span[aria-hidden="true"]{font-size:20px;line-height:1}
 .hero .button{margin-top:28px}
 .hero-evidence{min-width:0;animation:arrive .8s .1s ease both}
 .proof-label{margin-bottom:14px}
