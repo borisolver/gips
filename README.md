@@ -4,7 +4,7 @@ Static site at <https://borisolver.github.io/gips/>, maintained from `borisolver
 
 ## Automatic updates
 
-`.github/workflows/update-gips.yml` runs on pushes to `main`, manual dispatch, and every five minutes at minutes 02, 07, …, 57 UTC. GitHub can delay or skip scheduled runs; this is a polling target, not a delivery guarantee. Each successful check updates `sync-state.json`, including `last_successful_sync`.
+`.github/workflows/update-gips.yml` runs on pushes to `main`, manual dispatch, and every five minutes at minutes 03, 08, …, 58 UTC. GitHub can delay or skip scheduled runs; this is a polling target, not a delivery guarantee. Each successful check updates `sync-state.json`, including `last_successful_sync`.
 
 The workflow fetches reports, builds the site, runs tests, prepares a public-only artifact, then commits approved data files and deploys that artifact to Pages. It uses GitHub's built-in token and explicit Pages deployment; bot pushes alone do not trigger another build. No PAT, source-service credentials, or additional secrets are required. Pages uses the **GitHub Actions** publishing source. Asset paths remain relative; there is no CNAME or custom domain.
 

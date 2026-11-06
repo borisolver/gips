@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   schedule:
     # Every five minutes, offset from the start of the hour. GitHub may delay runs.
-    - cron: '2-57/5 * * * *'
+    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
 
 permissions:
   contents: read
