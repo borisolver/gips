@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f5f3ee">
   <title>GIPS — Grok Improvement Proposals</title>
-  <meta name="description" content="Real reports. Specific repairs. Explore 16 evidence-backed proposals for a better Grok, with original screenshots and clear outcomes to test.">
+  <meta name="description" content="Real reports. Specific repairs. Explore {{PROPOSAL_COUNT}} evidence-backed proposals for a better Grok, with original screenshots and clear outcomes to test.">
   <meta property="og:title" content="GIPS — Small fixes. Better Grok.">
-  <meta property="og:description" content="16 improvement proposals. 29 public reports. See the evidence, then the fix.">
+  <meta property="og:description" content="{{PROPOSAL_COUNT}} improvement proposals. {{REPORT_COUNT}} public reports. See the evidence, then the fix.">
   <meta property="og:image" content="logo.png">
   <link rel="icon" type="image/png" href="logo.png">
   <link rel="stylesheet" href="styles.css">
@@ -23,32 +23,33 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <img class="logo" src="logo.png" width="2172" height="724" alt="GIPS — Grok Improvement Proposals, with a cast around the mark" fetchpriority="high">
-        <p class="eyebrow">Independent proposals · November 2026</p>
+        <p class="eyebrow">Independent proposals · Always improving</p>
         <h1 id="hero-title">Small fixes.<br>Better Grok.</h1>
-        <p class="hero-intro">Less friction. More trust. {{PROPOSAL_COUNT}} specific repairs, grounded in {{REPORT_COUNT}} public reports.</p>
+        <p class="hero-intro">Less friction. More trust. <span data-count="proposals">{{PROPOSAL_COUNT}}</span> specific repairs, grounded in <span data-count="reports">{{REPORT_COUNT}}</span> public reports.</p>
         <a class="button" href="#proposals">Explore the evidence <span aria-hidden="true">↓</span></a>
       </div>
-      <div class="hero-evidence">
-        <p class="eyebrow proof-label">Start with the first answer</p>
-        {{FEATURED}}
-      </div>
+      <div class="hero-evidence" id="priority-spotlight" data-content-hash="{{SPOTLIGHT_HASH}}">{{SPOTLIGHT}}</div>
     </section>
     <section class="evidence-section section-wrap" id="proposals" aria-labelledby="evidence-title">
       <div class="section-heading">
         <div><p class="eyebrow">From report to repair</p><h2 id="evidence-title">See the friction.<br>Test the fix.</h2></div>
-        <p>{{IMAGE_COUNT}} original images, right here.<br>Select any image for a closer look.</p>
+        <p><span data-count="images">{{IMAGE_COUNT}}</span> original images, right here.<br>Select any image for a closer look.</p>
       </div>
-      <div class="proposal-grid">{{VISUAL_PROPOSALS}}</div>
-    </section>
-    <section class="text-section section-wrap" aria-labelledby="text-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">The rest of the repair list</p><h2 id="text-title">{{TEXT_PROPOSAL_COUNT}} more ways forward.</h2></div>
-        <p>Additional proposals from report text.<br>Open the sources for context.</p>
+      <div class="list-toolbar">
+        <div class="sort-controls" role="group" aria-label="Sort proposals" hidden>
+          <button type="button" data-sort="urgent" aria-pressed="true">Most urgent</button>
+          <button type="button" data-sort="newest" aria-pressed="false">Newest proposals</button>
+        </div>
+        <p class="list-status" id="list-status" aria-live="polite" aria-atomic="true">{{PROPOSAL_COUNT}} proposals · Most urgent first</p>
       </div>
-      <div class="text-proposals">{{TEXT_PROPOSALS}}</div>
+      <div class="freshness">
+        <p>Last checked <time id="last-checked" datetime="{{CHECKED_AT}}">{{CHECKED_LABEL}}</time>.<br><span>New reports checked about every 5 minutes. This page updates automatically.</span></p>
+        <div class="feed-notice" id="feed-notice" hidden><span>New updates ready.</span><button type="button" id="apply-updates">Update list</button></div>
+      </div>
+      <div class="proposal-grid" id="proposal-list" data-feed-version="{{FEED_VERSION}}">{{PROPOSALS}}</div>
     </section>
     <aside class="source-note section-wrap" aria-label="About the evidence">
-      <p>Evidence from public <a href="https://www.cleanapp.io" target="_blank" rel="noopener noreferrer">CleanApp reports</a>. Reports describe observed or reported experiences; current resolution is unverified. Fixes and measures are proposals, not measured results.</p>
+      <p>Evidence from public <a href="https://www.cleanapp.io" target="_blank" rel="noopener noreferrer">CleanApp reports</a>. Some reports have no relevant image. Reports describe observed or reported experiences; current resolution is unverified. Priorities can change; GIPS numbers stay with each proposal. Fixes and measures are proposals, not measured results.</p>
     </aside>
     <section class="contact" id="contact" aria-labelledby="contact-title">
       <div><p class="eyebrow">Let's ship the improvements</p><h2 id="contact-title">SpaceX, get in touch.</h2><p>Turn this evidence into a better Grok experience.</p></div>

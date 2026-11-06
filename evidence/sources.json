@@ -232,5 +232,37 @@
     "local_image_path": null,
     "has_original_media": false,
     "sha256": null
+  },
+  {
+    "public_id": "rpt_gWNCLC-jjDFcZuo2kdwmoA",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_gWNCLC-jjDFcZuo2kdwmoA",
+    "local_image_path": "evidence/rpt_gWNCLC-jjDFcZuo2kdwmoA.jpg",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_gWNCLC-jjDFcZuo2kdwmoA",
+    "has_original_media": true,
+    "sha256": "ded1bee083d64fd8b9c4253a9d3d12d0850b8f640077dc165b48c77e343c00e5"
+  },
+  {
+    "public_id": "rpt_M2Yeoz3lw9RjcXR_X3aFCg",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_M2Yeoz3lw9RjcXR_X3aFCg",
+    "local_image_path": "evidence/rpt_M2Yeoz3lw9RjcXR_X3aFCg.jpg",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_M2Yeoz3lw9RjcXR_X3aFCg",
+    "has_original_media": true,
+    "sha256": "6dba15581b441e96235593287a24caefb313367b06737a240afdc413c441f22b"
+  },
+  {
+    "public_id": "rpt_iLSbT5qvENvcc5U3r9Xzbw",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_iLSbT5qvENvcc5U3r9Xzbw",
+    "local_image_path": "evidence/rpt_iLSbT5qvENvcc5U3r9Xzbw.jpg",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_iLSbT5qvENvcc5U3r9Xzbw",
+    "has_original_media": true,
+    "sha256": "f018970de063a9049aa901498886ce2d2ea0f6531026eeeb76a147944fc1d184"
+  },
+  {
+    "public_id": "rpt_Z1NBnqCal5ioJ4_vmt042g",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_Z1NBnqCal5ioJ4_vmt042g",
+    "local_image_path": "evidence/rpt_Z1NBnqCal5ioJ4_vmt042g.jpg",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_Z1NBnqCal5ioJ4_vmt042g",
+    "has_original_media": true,
+    "sha256": "e9c9621a316612b9ba46a239d98278730bfac00ee0e10eeae9a0431b60240386"
   }
 ]

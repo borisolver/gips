@@ -1,23 +1,35 @@
 [
   {
-    "id": "GIP-01",
-    "title": "Answer first. Upsell second.",
-    "fix": "Let a new user try one complete answer before asking them to sign up.",
-    "metric": "First answer → sign-up conversion",
+    "id": "GIP-17",
+    "number": 17,
+    "title": "Make X-to-Grok setup work in one flow.",
+    "fix": "Carry the signed-in account through one clear linking step, preserve progress, and recover from setup errors.",
+    "metric": "Successful account setup",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T09:16:00Z",
+    "priority_score": 78.0,
+    "priority_label": "High",
+    "priority_reason": "Account setup blocks access · reported in the last 48 hours · 2 source reports",
     "evidence": [
-      "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
-      "rpt_r2rBlr1tXIzkv7rMn3ofJw",
-      "rpt_ZS9g3VadKr_ndpqo53mJVA"
+      "rpt_gWNCLC-jjDFcZuo2kdwmoA",
+      "rpt_M2Yeoz3lw9RjcXR_X3aFCg"
     ],
     "images": [
-      "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg"
+      "evidence/rpt_gWNCLC-jjDFcZuo2kdwmoA.jpg",
+      "evidence/rpt_M2Yeoz3lw9RjcXR_X3aFCg.jpg"
     ]
   },
   {
     "id": "GIP-02",
+    "number": 2,
     "title": "Make every handoff a link.",
     "fix": "Include a working deep link and carry the conversation into the next step.",
     "metric": "Successful handoffs",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 74.0,
+    "priority_label": "High",
+    "priority_reason": "Task handoff breaks · 3 source reports",
     "evidence": [
       "rpt_4FxP2JghhF3UR0iHD-YIvQ",
       "rpt_MbuOXv_CKEh36TDEcptLqQ",
@@ -28,63 +40,34 @@
     ]
   },
   {
-    "id": "GIP-03",
-    "title": "Check the facts about people.",
-    "fix": "Verify roles and affiliations against a source before stating them as fact.",
-    "metric": "Accuracy of role claims",
+    "id": "GIP-18",
+    "number": 18,
+    "title": "Turn a posting request into a permissioned action.",
+    "fix": "Offer a preview-and-confirm posting action for the connected X account, or a direct handoff that preserves the draft.",
+    "metric": "Completed posting requests",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T09:19:37Z",
+    "priority_score": 64.0,
+    "priority_label": "Medium",
+    "priority_reason": "A requested action stops at a handoff · reported in the last 48 hours",
     "evidence": [
-      "rpt_YpV5CL6aPvNhcyAjd_BtMg",
-      "rpt_LXL-Hj9wL2iFkR_TjjjQYA"
+      "rpt_iLSbT5qvENvcc5U3r9Xzbw"
     ],
     "images": [
-      "evidence/rpt_YpV5CL6aPvNhcyAjd_BtMg.jpg",
-      "evidence/rpt_LXL-Hj9wL2iFkR_TjjjQYA.jpg"
+      "evidence/rpt_iLSbT5qvENvcc5U3r9Xzbw.jpg"
     ]
-  },
-  {
-    "id": "GIP-04",
-    "title": "Deliver the image you promise.",
-    "fix": "Check that media is attached. Verify requested text before sending an image.",
-    "metric": "Image delivery and text accuracy",
-    "evidence": [
-      "rpt_hn2nCgNHF3jjy2K_7XTZVg",
-      "rpt_Z3noi2BOv3PAgYu8FMSV2Q"
-    ],
-    "images": [
-      "evidence/rpt_hn2nCgNHF3jjy2K_7XTZVg.jpg",
-      "evidence/rpt_Z3noi2BOv3PAgYu8FMSV2Q.jpg"
-    ]
-  },
-  {
-    "id": "GIP-05",
-    "title": "Keep voice clear over time.",
-    "fix": "Monitor audio quality and refresh degraded sessions before a user has to restart.",
-    "metric": "Fewer manual voice resets",
-    "evidence": [
-      "rpt_y0rjQjbGGcYutAzc9FMQdQ",
-      "rpt_YW-XCrIrdooYF3ppkSAAOQ"
-    ],
-    "images": [
-      "evidence/rpt_y0rjQjbGGcYutAzc9FMQdQ.jpg"
-    ]
-  },
-  {
-    "id": "GIP-06",
-    "title": "Make paid access dependable.",
-    "fix": "Reconcile purchases, restore missing access, and offer credits for documented outages.",
-    "metric": "Fewer billing support tickets",
-    "evidence": [
-      "rpt_KuFFnM4Z-lb33TgxIzl5wA",
-      "rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
-      "rpt_1AJXP4VhLA65_mSbvxLruQ"
-    ],
-    "images": []
   },
   {
     "id": "GIP-07",
+    "number": 7,
     "title": "Give developers time to adapt.",
     "fix": "Publish a deprecation window, test tool-enabled output, and keep support reachable.",
     "metric": "API retention after changes",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 58.0,
+    "priority_label": "Medium",
+    "priority_reason": "Developer integrations are affected · 3 source reports",
     "evidence": [
       "rpt_-P5MlZXkYy-y4dW-7mzruA",
       "rpt_Kcv22bwCplmIpbtJfGFfOQ",
@@ -96,10 +79,72 @@
     ]
   },
   {
+    "id": "GIP-01",
+    "number": 1,
+    "title": "Answer first. Upsell second.",
+    "fix": "Let a new user try one complete answer before asking them to sign up.",
+    "metric": "First answer → sign-up conversion",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 54.0,
+    "priority_label": "Medium",
+    "priority_reason": "First answer blocked · 3 source reports",
+    "evidence": [
+      "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+      "rpt_r2rBlr1tXIzkv7rMn3ofJw",
+      "rpt_ZS9g3VadKr_ndpqo53mJVA"
+    ],
+    "images": [
+      "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg"
+    ]
+  },
+  {
+    "id": "GIP-06",
+    "number": 6,
+    "title": "Make paid access dependable.",
+    "fix": "Reconcile purchases, restore missing access, and offer credits for documented outages.",
+    "metric": "Fewer billing support tickets",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 53.0,
+    "priority_label": "Medium",
+    "priority_reason": "Paid access is affected · 3 source reports",
+    "evidence": [
+      "rpt_KuFFnM4Z-lb33TgxIzl5wA",
+      "rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
+      "rpt_1AJXP4VhLA65_mSbvxLruQ"
+    ],
+    "images": []
+  },
+  {
+    "id": "GIP-19",
+    "number": 19,
+    "title": "Make Grok and Grok Bot easy to tell apart.",
+    "fix": "Explain each app’s role at discovery and guide people directly to the one that can complete their task.",
+    "metric": "First-attempt task completion",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T16:28:43Z",
+    "priority_score": 52.0,
+    "priority_label": "Medium",
+    "priority_reason": "Unclear product roles create friction · reported in the last 48 hours",
+    "evidence": [
+      "rpt_Z1NBnqCal5ioJ4_vmt042g"
+    ],
+    "images": [
+      "evidence/rpt_Z1NBnqCal5ioJ4_vmt042g.jpg"
+    ]
+  },
+  {
     "id": "GIP-08",
+    "number": 8,
     "title": "Turn complaints into tracked fixes.",
     "fix": "Create a ticket from a bug report, group duplicates, and send a tracking link.",
     "metric": "Report-to-fix time",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 50.0,
+    "priority_label": "Medium",
+    "priority_reason": "Reports need a tracking path · 2 source reports",
     "evidence": [
       "rpt_AwANPJbi7JmqRYK875mehA",
       "rpt_JnLFMp4k3npMFy96OG4Djg"
@@ -107,32 +152,32 @@
     "images": []
   },
   {
-    "id": "GIP-09",
-    "title": "Keep memory consistent.",
-    "fix": "Give people an editable memory profile and consistent persona settings across sessions.",
-    "metric": "Repeat-use retention",
+    "id": "GIP-16",
+    "number": 16,
+    "title": "Close the desktop–mobile gaps.",
+    "fix": "Align controls, make built-in skills optional, and fix the API-key setup flow.",
+    "metric": "Successful setup and task completion",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 50.0,
+    "priority_label": "Medium",
+    "priority_reason": "Bot setup and controls fail",
     "evidence": [
-      "rpt_MD-7bfCQaDTiqBbZ-UGOMA"
+      "rpt_aM5b1YMDug07my2KI1AMmQ"
     ],
     "images": []
   },
   {
-    "id": "GIP-10",
-    "title": "Make errors actionable.",
-    "fix": "Replace raw errors with a clear next step, a retry, and a status link.",
-    "metric": "Successful retries",
-    "evidence": [
-      "rpt_XPhQ4P7ACVTl2EjOtJBTiw"
-    ],
-    "images": [
-      "evidence/rpt_XPhQ4P7ACVTl2EjOtJBTiw.jpg"
-    ]
-  },
-  {
     "id": "GIP-11",
+    "number": 11,
     "title": "Check outbound links.",
     "fix": "Validate destinations and clearly label external sites before sending users away.",
     "metric": "Fewer incorrect redirects",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 48.0,
+    "priority_label": "Medium",
+    "priority_reason": "An outbound link is misleading",
     "evidence": [
       "rpt_dfP2rPlhkem703dhcR9bzw"
     ],
@@ -141,22 +186,109 @@
     ]
   },
   {
-    "id": "GIP-12",
-    "title": "Let tables turn sideways.",
-    "fix": "Support landscape answers and horizontal scrolling for wide tables and code.",
-    "metric": "Mobile task completion",
+    "id": "GIP-03",
+    "number": 3,
+    "title": "Check the facts about people.",
+    "fix": "Verify roles and affiliations against a source before stating them as fact.",
+    "metric": "Accuracy of role claims",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 47.0,
+    "priority_label": "Medium",
+    "priority_reason": "Unverified identity claims · 2 source reports",
     "evidence": [
-      "rpt_tsaIxhPJ16UI3WIrB8tBJg"
+      "rpt_YpV5CL6aPvNhcyAjd_BtMg",
+      "rpt_LXL-Hj9wL2iFkR_TjjjQYA"
     ],
     "images": [
-      "evidence/rpt_tsaIxhPJ16UI3WIrB8tBJg.jpg"
+      "evidence/rpt_YpV5CL6aPvNhcyAjd_BtMg.jpg",
+      "evidence/rpt_LXL-Hj9wL2iFkR_TjjjQYA.jpg"
+    ]
+  },
+  {
+    "id": "GIP-10",
+    "number": 10,
+    "title": "Make errors actionable.",
+    "fix": "Replace raw errors with a clear next step, a retry, and a status link.",
+    "metric": "Successful retries",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 43.0,
+    "priority_label": "Medium",
+    "priority_reason": "Errors need a recovery path",
+    "evidence": [
+      "rpt_XPhQ4P7ACVTl2EjOtJBTiw"
+    ],
+    "images": [
+      "evidence/rpt_XPhQ4P7ACVTl2EjOtJBTiw.jpg"
+    ]
+  },
+  {
+    "id": "GIP-15",
+    "number": 15,
+    "title": "Explain capability changes.",
+    "fix": "Show what changed, why it changed, and what people can do next.",
+    "metric": "Fewer change-related complaints",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 43.0,
+    "priority_label": "Medium",
+    "priority_reason": "Capability changes need explanation",
+    "evidence": [
+      "rpt_Zk6kWSl4vZHKjKNTHCvR_w"
+    ],
+    "images": []
+  },
+  {
+    "id": "GIP-04",
+    "number": 4,
+    "title": "Deliver the image you promise.",
+    "fix": "Check that media is attached. Verify requested text before sending an image.",
+    "metric": "Image delivery and text accuracy",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 37.0,
+    "priority_label": "Watch",
+    "priority_reason": "Promised output fails · 2 source reports",
+    "evidence": [
+      "rpt_hn2nCgNHF3jjy2K_7XTZVg",
+      "rpt_Z3noi2BOv3PAgYu8FMSV2Q"
+    ],
+    "images": [
+      "evidence/rpt_hn2nCgNHF3jjy2K_7XTZVg.jpg",
+      "evidence/rpt_Z3noi2BOv3PAgYu8FMSV2Q.jpg"
+    ]
+  },
+  {
+    "id": "GIP-05",
+    "number": 5,
+    "title": "Keep voice clear over time.",
+    "fix": "Monitor audio quality and refresh degraded sessions before a user has to restart.",
+    "metric": "Fewer manual voice resets",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 37.0,
+    "priority_label": "Watch",
+    "priority_reason": "Voice sessions degrade · 2 source reports",
+    "evidence": [
+      "rpt_y0rjQjbGGcYutAzc9FMQdQ",
+      "rpt_YW-XCrIrdooYF3ppkSAAOQ"
+    ],
+    "images": [
+      "evidence/rpt_y0rjQjbGGcYutAzc9FMQdQ.jpg"
     ]
   },
   {
     "id": "GIP-13",
+    "number": 13,
     "title": "Keep avatars in one piece.",
     "fix": "Check animation collisions so hands stay outside clothing.",
     "metric": "Fewer visible clipping defects",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 37.0,
+    "priority_label": "Watch",
+    "priority_reason": "Visible animation defects · 2 source reports",
     "evidence": [
       "rpt_Fb1fA8vSiXHxcdl8OqBX7g",
       "rpt_Ya6qahpoNL-osI-diK7ptg"
@@ -167,32 +299,52 @@
     ]
   },
   {
+    "id": "GIP-09",
+    "number": 9,
+    "title": "Keep memory consistent.",
+    "fix": "Give people an editable memory profile and consistent persona settings across sessions.",
+    "metric": "Repeat-use retention",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 28.0,
+    "priority_label": "Watch",
+    "priority_reason": "Session continuity is affected",
+    "evidence": [
+      "rpt_MD-7bfCQaDTiqBbZ-UGOMA"
+    ],
+    "images": []
+  },
+  {
+    "id": "GIP-12",
+    "number": 12,
+    "title": "Let tables turn sideways.",
+    "fix": "Support landscape answers and horizontal scrolling for wide tables and code.",
+    "metric": "Mobile task completion",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 26.0,
+    "priority_label": "Watch",
+    "priority_reason": "Wide answers are hard to read",
+    "evidence": [
+      "rpt_tsaIxhPJ16UI3WIrB8tBJg"
+    ],
+    "images": [
+      "evidence/rpt_tsaIxhPJ16UI3WIrB8tBJg.jpg"
+    ]
+  },
+  {
     "id": "GIP-14",
+    "number": 14,
     "title": "Bring context into standalone Grok.",
     "fix": "Bring source-linked post explanations and live-topic context into the standalone app.",
     "metric": "New-user activation",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 20.0,
+    "priority_label": "Watch",
+    "priority_reason": "Standalone context is missing",
     "evidence": [
       "rpt_AuKFb37RMoMUct3jC9r1hQ"
-    ],
-    "images": []
-  },
-  {
-    "id": "GIP-15",
-    "title": "Explain capability changes.",
-    "fix": "Show what changed, why it changed, and what people can do next.",
-    "metric": "Fewer change-related complaints",
-    "evidence": [
-      "rpt_Zk6kWSl4vZHKjKNTHCvR_w"
-    ],
-    "images": []
-  },
-  {
-    "id": "GIP-16",
-    "title": "Close the desktop–mobile gaps.",
-    "fix": "Align controls, make built-in skills optional, and fix the API-key setup flow.",
-    "metric": "Successful setup and task completion",
-    "evidence": [
-      "rpt_aM5b1YMDug07my2KI1AMmQ"
     ],
     "images": []
   }

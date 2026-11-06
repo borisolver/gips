@@ -14,7 +14,19 @@
         "recorded_date": "2026-10-15",
         "image": "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg",
         "width": 2048,
-        "height": 716
+        "height": 716,
+        "summary": "Grok Web Immediate Auth-Wall Gate Blocks Query Resolution: Submitting the prompt \"tell me about CleanApp\" immediately triggers an unskippable modal stating \"Continue your conversation: Sign up to continue seamlessly with Grok’s full power\" without delivering a first-turn response.",
+        "excerpt": "Grok's paywall is broken and annoying -- need to be able to get an answer first, then followed by upsell.",
+        "recorded_at": "2026-10-15T21:04:09Z",
+        "source_published_at": null,
+        "signal_at": "2026-10-15T21:04:09Z",
+        "severity": 0.45,
+        "report_kind": "firsthand",
+        "intake_channel": "web",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_062f094240f40057"
       },
       {
         "id": "rpt_r2rBlr1tXIzkv7rMn3ofJw",
@@ -32,7 +44,22 @@
         "recorded_date": "2025-12-19",
         "image": null
       }
-    ]
+    ],
+    "number": 1,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "first-answer",
+    "priority_score": 54,
+    "priority_label": "Medium",
+    "priority_reason": "First answer blocked · 3 source reports",
+    "priority_components": {
+      "severity": 22.5,
+      "freshness": 8.3,
+      "firsthand": 10,
+      "image": 5,
+      "support": 8
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-02",
@@ -49,7 +76,19 @@
         "recorded_date": "2026-10-15",
         "image": "evidence/rpt_4FxP2JghhF3UR0iHD-YIvQ.jpg",
         "width": 2048,
-        "height": 1099
+        "height": 1099,
+        "summary": "Chatbot Inability to Authenticate in Group Thread and Ambiguous 1:1 Redirect: The bot rejects authentication stating 'I can't take a sign-in in this group chat' and instructs the user to switch to a '1:1 chat' without providing a navigable link or clear context, causing user friction.",
+        "excerpt": "GrokBot / Grok has this weird habit of refusing something, and asking to do a given task in a 1:1, without ANY context of what that means, or where such a 1:1 might exist. A simple link would suffice.",
+        "recorded_at": "2026-10-15T22:05:00Z",
+        "source_published_at": null,
+        "signal_at": "2026-10-15T22:05:00Z",
+        "severity": 0.35,
+        "report_kind": "firsthand",
+        "intake_channel": "web",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_422684884c4327a0"
       },
       {
         "id": "rpt_MbuOXv_CKEh36TDEcptLqQ",
@@ -57,7 +96,19 @@
         "url": "https://www.cleanapp.io/digital/report/rpt_MbuOXv_CKEh36TDEcptLqQ",
         "source_date": "",
         "recorded_date": "2026-10-15",
-        "image": null
+        "image": null,
+        "summary": "Grok Sign-On Flow from X to GrokBot Malfunctioning: The authentication and sign-on flow connecting X accounts to GrokBot is reported as broken, with recent updates further complicating the process.",
+        "excerpt": "Grok's signon flow from X to GrokBot is still broken. Latest updates just complicated matters.",
+        "recorded_at": "2026-10-15T21:01:29Z",
+        "source_published_at": null,
+        "signal_at": "2026-10-15T21:01:29Z",
+        "severity": 0.65,
+        "report_kind": "firsthand",
+        "intake_channel": "web",
+        "has_original_media": false,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_1f85b76eadf7a853"
       },
       {
         "id": "rpt_Eb_y3T72i4m8XeeZBYZNJw",
@@ -66,9 +117,36 @@
         "source_date": "2026-03-24",
         "recorded_date": "2026-03-24",
         "image": null,
-        "image_omitted_reason": "Profile photo unrelated to the reported login failure."
+        "image_omitted_reason": "Profile photo unrelated to the reported login failure.",
+        "summary": "x.ai Grok 3 Web Login Failure: User reports a major bug where Gmail sign-in 'only loads half the page and freezes' on desktop, preventing access to Grok 3.",
+        "excerpt": "",
+        "recorded_at": "2026-03-24T22:01:40Z",
+        "source_published_at": "2026-03-24T22:01:39Z",
+        "signal_at": "2026-03-24T22:01:39Z",
+        "severity": 0.85,
+        "report_kind": "unknown",
+        "intake_channel": "share",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_d51fbe6235245b9a"
       }
-    ]
+    ],
+    "number": 2,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "handoff",
+    "priority_score": 74,
+    "priority_label": "High",
+    "priority_reason": "Task handoff breaks · 3 source reports",
+    "priority_components": {
+      "severity": 42.5,
+      "freshness": 8.4,
+      "firsthand": 10,
+      "image": 5,
+      "support": 8
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-03",
@@ -95,9 +173,36 @@
         "recorded_date": "2025-08-14",
         "image": "evidence/rpt_LXL-Hj9wL2iFkR_TjjjQYA.jpg",
         "width": 562,
-        "height": 1000
+        "height": 1000,
+        "summary": "Grok Misread xAI Integration Assertion: Grok inaccurately interpreted the footer on www.cleanapp.io as stating an xAI integration, despite no such integration existing. This highlights a major issue in Grok's parsing logic or data handling.",
+        "excerpt": "",
+        "recorded_at": "2025-08-14T19:56:29Z",
+        "source_published_at": null,
+        "signal_at": "2025-08-14T19:56:29Z",
+        "severity": 0.7,
+        "report_kind": "unknown",
+        "intake_channel": "",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_cc215bae152e75fe"
       }
-    ]
+    ],
+    "number": 3,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "role-grounding",
+    "priority_score": 47,
+    "priority_label": "Medium",
+    "priority_reason": "Unverified identity claims · 2 source reports",
+    "priority_components": {
+      "severity": 35.0,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 5,
+      "support": 4
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-04",
@@ -114,7 +219,19 @@
         "recorded_date": "2025-08-18",
         "image": "evidence/rpt_hn2nCgNHF3jjy2K_7XTZVg.jpg",
         "width": 461,
-        "height": 1000
+        "height": 1000,
+        "summary": "Misleading Response on Grok's Image Generation: The Twitter response from Grok suggests a generated image of a 'Burning Man background with embedded neon queen crowned in glowing triangles'. However, Big Skills Big Talent responds with 'Your brain is frying. I see no image.' indicating a failure in image sharing or rendering.",
+        "excerpt": "",
+        "recorded_at": "2025-08-18T20:01:42Z",
+        "source_published_at": null,
+        "signal_at": "2025-08-18T20:01:42Z",
+        "severity": 0.5,
+        "report_kind": "unknown",
+        "intake_channel": "",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_5619af6825230390"
       },
       {
         "id": "rpt_Z3noi2BOv3PAgYu8FMSV2Q",
@@ -124,9 +241,36 @@
         "recorded_date": "2025-08-08",
         "image": "evidence/rpt_Z3noi2BOv3PAgYu8FMSV2Q.jpg",
         "width": 948,
-        "height": 1000
+        "height": 1000,
+        "summary": "Grok Render Failure of Tesla Cybertruck: Jeremy Judkins is posting a photo of a Tesla Cybertruck every day until Grok correctly renders it. The image comparison shows inaccuracies, such as 'TESLA' being rendered as 'TESLA MEFFERTRUCK'.",
+        "excerpt": "",
+        "recorded_at": "2025-08-08T10:34:24Z",
+        "source_published_at": null,
+        "signal_at": "2025-08-08T10:34:24Z",
+        "severity": 0.5,
+        "report_kind": "coverage",
+        "intake_channel": "",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_5570e0a2059d463a"
       }
-    ]
+    ],
+    "number": 4,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "image-delivery",
+    "priority_score": 37,
+    "priority_label": "Watch",
+    "priority_reason": "Promised output fails · 2 source reports",
+    "priority_components": {
+      "severity": 25.0,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 5,
+      "support": 4
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-05",
@@ -143,7 +287,19 @@
         "recorded_date": "2025-08-17",
         "image": "evidence/rpt_y0rjQjbGGcYutAzc9FMQdQ.jpg",
         "width": 562,
-        "height": 1000
+        "height": 1000,
+        "summary": "Grok Voice Bug in Tesla: User experiences degradation of Grok voice in a Tesla after a few minutes, needing a reset to fix. Bug is described as 'very odd' and 'disturbing as it happens slowly over minutes'.",
+        "excerpt": "",
+        "recorded_at": "2025-08-17T21:21:00Z",
+        "source_published_at": null,
+        "signal_at": "2025-08-17T21:21:00Z",
+        "severity": 0.5,
+        "report_kind": "coverage",
+        "intake_channel": "",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_6d95800715ac4a06"
       },
       {
         "id": "rpt_YW-XCrIrdooYF3ppkSAAOQ",
@@ -153,7 +309,22 @@
         "recorded_date": "2026-09-10",
         "image": null
       }
-    ]
+    ],
+    "number": 5,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "voice",
+    "priority_score": 37,
+    "priority_label": "Watch",
+    "priority_reason": "Voice sessions degrade · 2 source reports",
+    "priority_components": {
+      "severity": 25.0,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 5,
+      "support": 4
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-06",
@@ -168,7 +339,19 @@
         "url": "https://www.cleanapp.io/digital/report/rpt_KuFFnM4Z-lb33TgxIzl5wA",
         "source_date": "2026-01-28",
         "recorded_date": "2026-10-09",
-        "image": null
+        "image": null,
+        "summary": "Grok Service Outage and Denied Subscription Refund: A paying user reported that the Grok service became completely unusable following a consecutive two-day outage on January 26 and 27. Upon canceling the subscription, their refund request was denied.",
+        "excerpt": "Just after I started paying them, the service became unusable. I purchased on January 24 and after service was unavailable for two consecutive days (26 and 27) I canceled on 27 and requested a refund.",
+        "recorded_at": "2026-10-09T00:28:05Z",
+        "source_published_at": "2026-01-28T08:40:39Z",
+        "signal_at": "2026-01-28T08:40:39Z",
+        "severity": 0.7,
+        "report_kind": "firsthand",
+        "intake_channel": "",
+        "has_original_media": false,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_56c681177eb97b27"
       },
       {
         "id": "rpt_Sh7rTt5tFdlv-IEwNTcKuQ",
@@ -184,9 +367,36 @@
         "url": "https://www.cleanapp.io/digital/report/rpt_1AJXP4VhLA65_mSbvxLruQ",
         "source_date": "2026-02-06",
         "recorded_date": "2026-10-08",
-        "image": null
+        "image": null,
+        "summary": "Grok Application Freezes at 98% Loading: The Grok application reportedly hangs indefinitely at 98% loading progress and fails to launch.",
+        "excerpt": "Grok just freezes at 98% every time",
+        "recorded_at": "2026-10-08T23:59:07Z",
+        "source_published_at": "2026-02-06T03:01:06Z",
+        "signal_at": "2026-02-06T03:01:06Z",
+        "severity": 0.7,
+        "report_kind": "firsthand",
+        "intake_channel": "",
+        "has_original_media": false,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_0674e536864cf7c9"
       }
-    ]
+    ],
+    "number": 6,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "billing",
+    "priority_score": 53,
+    "priority_label": "Medium",
+    "priority_reason": "Paid access is affected · 3 source reports",
+    "priority_components": {
+      "severity": 35.0,
+      "freshness": 0,
+      "firsthand": 10,
+      "image": 0,
+      "support": 8
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-07",
@@ -203,7 +413,19 @@
         "recorded_date": "2026-05-06",
         "image": "evidence/rpt_-P5MlZXkYy-y4dW-7mzruA.png",
         "width": 1248,
-        "height": 1394
+        "height": 1394,
+        "summary": "xAI API Hard Model Retirement & Service Interruption Risk: On May 15, 2026, xAI will retire multiple models including grok-4-1-fast-non-reasoning; requests for these models will fail, affecting '30+ sites/apps' with only a 9-day implementation window.",
+        "excerpt": "",
+        "recorded_at": "2026-05-06T11:31:30Z",
+        "source_published_at": "2026-05-06T11:31:28Z",
+        "signal_at": "2026-05-06T11:31:28Z",
+        "severity": 0.85,
+        "report_kind": "unknown",
+        "intake_channel": "share",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_2c9ac0c99eafd421"
       },
       {
         "id": "rpt_Kcv22bwCplmIpbtJfGFfOQ",
@@ -223,7 +445,22 @@
         "width": 562,
         "height": 1000
       }
-    ]
+    ],
+    "number": 7,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "developer",
+    "priority_score": 58,
+    "priority_label": "Medium",
+    "priority_reason": "Developer integrations are affected · 3 source reports",
+    "priority_components": {
+      "severity": 42.5,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 5,
+      "support": 8
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-08",
@@ -238,7 +475,19 @@
         "url": "https://www.cleanapp.io/digital/report/rpt_AwANPJbi7JmqRYK875mehA",
         "source_date": "",
         "recorded_date": "2025-11-25",
-        "image": null
+        "image": null,
+        "summary": "A CleanApp report (seq=308958) is reported by @grok to be empty or contain no details. This failure is potentially linked to the August 2025 Grok backend partitioning issue. @grok is seeking the HackerOne ID for escalation and review, offering a potential bounty of up to $20K. : https://twitter.com/grok/status/1993321732682531018",
+        "excerpt": "Thanks for the CleanApp report (seq=308958). It appears to load with no content or bug details. If this relates to the August 2025 Grok backend partitioning issue, DM your HackerOne report ID—I'll escalate for review and potential bounty up to $20K.",
+        "recorded_at": "2025-11-25T14:21:56Z",
+        "source_published_at": null,
+        "signal_at": "2025-11-25T14:21:56Z",
+        "severity": 0.85,
+        "report_kind": "unknown",
+        "intake_channel": "",
+        "has_original_media": false,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_658a45e171dce50f"
       },
       {
         "id": "rpt_JnLFMp4k3npMFy96OG4Djg",
@@ -246,9 +495,36 @@
         "url": "https://www.cleanapp.io/digital/report/rpt_JnLFMp4k3npMFy96OG4Djg",
         "source_date": "",
         "recorded_date": "2025-11-25",
-        "image": null
+        "image": null,
+        "summary": "Conversation between CleanApp and Grok regarding a new CleanApp report link that is currently not displaying content ('No reports found'). Grok suggests this may be related to a 'Grok bug' and offers escalation assistance via HackerOne. : https://twitter.com/grok/status/1993315534985986326",
+        "excerpt": "Thanks for the latest CleanApp link (seq=308917). It currently shows \"No reports found,\" so details aren't visible yet. If it's related to the Grok bug, share more info or DM your HackerOne report ID—I'll assist with escalation.",
+        "recorded_at": "2025-11-25T13:57:33Z",
+        "source_published_at": null,
+        "signal_at": "2025-11-25T13:57:33Z",
+        "severity": 0.7,
+        "report_kind": "unknown",
+        "intake_channel": "",
+        "has_original_media": false,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_82e119a2fb91a8b2"
       }
-    ]
+    ],
+    "number": 8,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "tracking",
+    "priority_score": 50,
+    "priority_label": "Medium",
+    "priority_reason": "Reports need a tracking path · 2 source reports",
+    "priority_components": {
+      "severity": 42.5,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 0,
+      "support": 4
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-09",
@@ -263,9 +539,36 @@
         "url": "https://www.cleanapp.io/digital/report/rpt_MD-7bfCQaDTiqBbZ-UGOMA",
         "source_date": "2025-09-05",
         "recorded_date": "2025-12-19",
-        "image": null
+        "image": null,
+        "summary": "User wants the AI companion to retain memory and avoid personality swings.",
+        "excerpt": "",
+        "recorded_at": "2025-12-19T23:47:29Z",
+        "source_published_at": "2025-09-05T03:40:41Z",
+        "signal_at": "2025-09-05T03:40:41Z",
+        "severity": 0.5,
+        "report_kind": "unknown",
+        "intake_channel": "",
+        "has_original_media": false,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_8cebc4293237e874"
       }
-    ]
+    ],
+    "number": 9,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "memory",
+    "priority_score": 28,
+    "priority_label": "Watch",
+    "priority_reason": "Session continuity is affected",
+    "priority_components": {
+      "severity": 25.0,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 0,
+      "support": 0
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-10",
@@ -282,9 +585,36 @@
         "recorded_date": "2025-08-14",
         "image": "evidence/rpt_XPhQ4P7ACVTl2EjOtJBTiw.jpg",
         "width": 1000,
-        "height": 874
+        "height": 874,
+        "summary": "Unexpected Content-Type Error in Grok App: The Grok app encountered an 'unexpected content-type' error, noted as a technical bug. Similar issues were reported in July. This is not related to STF or censorship.",
+        "excerpt": "",
+        "recorded_at": "2025-08-14T16:33:59Z",
+        "source_published_at": null,
+        "signal_at": "2025-08-14T16:33:59Z",
+        "severity": 0.7,
+        "report_kind": "coverage",
+        "intake_channel": "",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_ce0ceabc7fca0ab7"
       }
-    ]
+    ],
+    "number": 10,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "errors",
+    "priority_score": 43,
+    "priority_label": "Medium",
+    "priority_reason": "Errors need a recovery path",
+    "priority_components": {
+      "severity": 35.0,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 5,
+      "support": 0
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-11",
@@ -301,9 +631,36 @@
         "recorded_date": "2025-08-14",
         "image": "evidence/rpt_dfP2rPlhkem703dhcR9bzw.jpg",
         "width": 562,
-        "height": 1000
+        "height": 1000,
+        "summary": "Grok Redirect Issue Leading to Unrelated External Site: Grok is errantly redirecting X users to an external third party paid site unrelated to Grok or xAI. This issue is reported by a user on X platform expressing frustration regarding the issue.",
+        "excerpt": "",
+        "recorded_at": "2025-08-14T20:20:48Z",
+        "source_published_at": null,
+        "signal_at": "2025-08-14T20:20:48Z",
+        "severity": 0.8,
+        "report_kind": "coverage",
+        "intake_channel": "",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_0d4fdff6351f0676"
       }
-    ]
+    ],
+    "number": 11,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "links",
+    "priority_score": 48,
+    "priority_label": "Medium",
+    "priority_reason": "An outbound link is misleading",
+    "priority_components": {
+      "severity": 40.0,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 5,
+      "support": 0
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-12",
@@ -322,7 +679,22 @@
         "width": 461,
         "height": 1000
       }
-    ]
+    ],
+    "number": 12,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "landscape",
+    "priority_score": 26,
+    "priority_label": "Watch",
+    "priority_reason": "Wide answers are hard to read",
+    "priority_components": {
+      "severity": 17.5,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 5,
+      "support": 0
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-13",
@@ -339,7 +711,19 @@
         "recorded_date": "2025-08-21",
         "image": "evidence/rpt_Fb1fA8vSiXHxcdl8OqBX7g.jpg",
         "width": 461,
-        "height": 1000
+        "height": 1000,
+        "summary": "Grok Defect in Animation - Character Clipping Issue: The animation of the character shows a defect where the hands move through the clothes, indicating a clipping or collision detection issue.",
+        "excerpt": "",
+        "recorded_at": "2025-08-21T07:15:25Z",
+        "source_published_at": null,
+        "signal_at": "2025-08-21T07:15:25Z",
+        "severity": 0.5,
+        "report_kind": "unknown",
+        "intake_channel": "",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_d5a9fab97b316e62"
       },
       {
         "id": "rpt_Ya6qahpoNL-osI-diK7ptg",
@@ -349,9 +733,36 @@
         "recorded_date": "2025-08-21",
         "image": "evidence/rpt_Ya6qahpoNL-osI-diK7ptg.jpg",
         "width": 461,
-        "height": 1000
+        "height": 1000,
+        "summary": "Animation Defects in Grok Interface: The animated character's hands and fingers move through clothes, leading to visual inconsistencies",
+        "excerpt": "",
+        "recorded_at": "2025-08-21T07:14:13Z",
+        "source_published_at": null,
+        "signal_at": "2025-08-21T07:14:13Z",
+        "severity": 0.3,
+        "report_kind": "unknown",
+        "intake_channel": "",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_b118c78a11a65057"
       }
-    ]
+    ],
+    "number": 13,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "clipping",
+    "priority_score": 37,
+    "priority_label": "Watch",
+    "priority_reason": "Visible animation defects · 2 source reports",
+    "priority_components": {
+      "severity": 25.0,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 5,
+      "support": 4
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-14",
@@ -369,7 +780,22 @@
         "image": null,
         "image_omitted_reason": "Unrelated social post; does not depict the reported Grok comparison."
       }
-    ]
+    ],
+    "number": 14,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "standalone",
+    "priority_score": 20,
+    "priority_label": "Watch",
+    "priority_reason": "Standalone context is missing",
+    "priority_components": {
+      "severity": 17.5,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 0,
+      "support": 0
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-15",
@@ -384,9 +810,36 @@
         "url": "https://www.cleanapp.io/digital/report/rpt_Zk6kWSl4vZHKjKNTHCvR_w",
         "source_date": "2026-01-10",
         "recorded_date": "2026-01-10",
-        "image": null
+        "image": null,
+        "summary": "Report concerning the banning of Grok's AI Image Tool feature, with the post questioning the 'User Safety' justification for removing this core digital service functionality. : https://bsky.app/profile/did:plc:tpc42zt2y25vzh4a2djx5tvo/post/3mc2hayjxv72i",
+        "excerpt": "Grok's Image Tool Banned: Is User Safety Enough?",
+        "recorded_at": "2026-01-10T07:12:54Z",
+        "source_published_at": "2026-01-10T07:08:09Z",
+        "signal_at": "2026-01-10T07:08:09Z",
+        "severity": 0.8,
+        "report_kind": "coverage",
+        "intake_channel": "",
+        "has_original_media": false,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_9b4262ae8d7be787"
       }
-    ]
+    ],
+    "number": 15,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "capability",
+    "priority_score": 43,
+    "priority_label": "Medium",
+    "priority_reason": "Capability changes need explanation",
+    "priority_components": {
+      "severity": 40.0,
+      "freshness": 0,
+      "firsthand": 3,
+      "image": 0,
+      "support": 0
+    },
+    "status": "proposed"
   },
   {
     "id": "GIP-16",
@@ -401,8 +854,201 @@
         "url": "https://www.cleanapp.io/digital/report/rpt_aM5b1YMDug07my2KI1AMmQ",
         "source_date": "2026-10-15",
         "recorded_date": "2026-10-15",
-        "image": null
+        "image": null,
+        "summary": "Multiple Functional and Parity Deficiencies Reported in Grok Bot: User reports multiple issues with Grok, including undeletable built-in skills, unresponsive cloud machine control, absence of SSH support, missing instruction editing on the desktop client compared to mobile, and an API creation bug.",
+        "excerpt": "创建 Grok API key 却不能调用 Cursor agent API (有bug)，而你没有办法再创建 Cursor API key了。",
+        "recorded_at": "2026-10-15T00:07:54Z",
+        "source_published_at": "2026-10-15T00:03:02Z",
+        "signal_at": "2026-10-15T00:03:02Z",
+        "severity": 0.65,
+        "report_kind": "firsthand",
+        "intake_channel": "",
+        "has_original_media": false,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_b4fc68a81f8a9800"
       }
-    ]
+    ],
+    "number": 16,
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "topic": "bot-setup",
+    "priority_score": 50,
+    "priority_label": "Medium",
+    "priority_reason": "Bot setup and controls fail",
+    "priority_components": {
+      "severity": 32.5,
+      "freshness": 7.5,
+      "firsthand": 10,
+      "image": 0,
+      "support": 0
+    },
+    "status": "proposed"
+  },
+  {
+    "id": "GIP-17",
+    "number": 17,
+    "topic": "account-linking",
+    "title": "Make X-to-Grok setup work in one flow.",
+    "fix": "Carry the signed-in account through one clear linking step, preserve progress, and recover from setup errors.",
+    "metric": "Successful account setup",
+    "caption": "Reported experience: Confusing multi-step onboarding for Grok from X",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T09:16:00Z",
+    "first_report_at": "2026-11-05T09:04:48Z",
+    "first_ingested_at": "2026-11-06T13:00:28Z",
+    "evidence": [
+      {
+        "id": "rpt_gWNCLC-jjDFcZuo2kdwmoA",
+        "label": "Confusing multi-step onboarding for Grok from X",
+        "url": "https://www.cleanapp.io/digital/report/rpt_gWNCLC-jjDFcZuo2kdwmoA",
+        "summary": "Confusing multi-step onboarding for Grok from X: Grok onboarding via X is confusing and requires multiple steps with no clarity; the screen 'We couldn't find your Grok account' offers only 'Link account' or 'Keep accounts separate' with an unclear explanation that linking syncs chats across X and Grok.",
+        "excerpt": "Extremely confusing on boarding for Grok from X. Requires multiple steps with no clarity whatsoever.",
+        "recorded_at": "2026-11-05T09:04:48Z",
+        "recorded_date": "2026-11-05",
+        "source_date": "",
+        "source_published_at": null,
+        "signal_at": "2026-11-05T09:04:48Z",
+        "severity": 0.3,
+        "report_kind": "firsthand",
+        "intake_channel": "mobile",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_e0bb60a05fd6b893",
+        "image": "evidence/rpt_gWNCLC-jjDFcZuo2kdwmoA.jpg",
+        "width": 1000,
+        "height": 588
+      },
+      {
+        "id": "rpt_M2Yeoz3lw9RjcXR_X3aFCg",
+        "label": "Grok account setup fails with generic error after multi-step redirect flow",
+        "url": "https://www.cleanapp.io/digital/report/rpt_M2Yeoz3lw9RjcXR_X3aFCg",
+        "summary": "Grok account setup fails with generic error after multi-step redirect flow: User reports a multi-step connection flow to Grok (requiring six or seven clicks and redirects) and an error dialog reading \"Something went wrong. We couldn't finish setting up your Grok account. Please try again.\" The user describes the experience as unacceptable and 100% buggy.",
+        "excerpt": "After jumping through multiple hoops, six or seven clicks and redirects trying to connect Grok trying to use rock from my ex account. I finally got this and it’s an error message purely unacceptable. 100% buggy.",
+        "recorded_at": "2026-11-05T09:16:00Z",
+        "recorded_date": "2026-11-05",
+        "source_date": "",
+        "source_published_at": null,
+        "signal_at": "2026-11-05T09:16:00Z",
+        "severity": 0.6,
+        "report_kind": "firsthand",
+        "intake_channel": "mobile",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_91fe52fe754afa0b",
+        "image": "evidence/rpt_M2Yeoz3lw9RjcXR_X3aFCg.jpg",
+        "width": 1000,
+        "height": 635
+      }
+    ],
+    "priority_score": 78,
+    "priority_label": "High",
+    "priority_reason": "Account setup blocks access · reported in the last 48 hours · 2 source reports",
+    "priority_components": {
+      "severity": 30.0,
+      "freshness": 28.8,
+      "firsthand": 10,
+      "image": 5,
+      "support": 4
+    },
+    "status": "proposed"
+  },
+  {
+    "id": "GIP-18",
+    "number": 18,
+    "topic": "x-posting",
+    "title": "Turn a posting request into a permissioned action.",
+    "fix": "Offer a preview-and-confirm posting action for the connected X account, or a direct handoff that preserves the draft.",
+    "metric": "Completed posting requests",
+    "caption": "Reported experience: Grok refuses to post a simple message from signed-in account and redirects to confusing Grok Bot setup",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T09:19:37Z",
+    "first_report_at": "2026-11-05T09:19:37Z",
+    "first_ingested_at": "2026-11-06T13:00:28Z",
+    "evidence": [
+      {
+        "id": "rpt_iLSbT5qvENvcc5U3r9Xzbw",
+        "label": "Grok refuses to post a simple message from signed-in account and redirects to confusing Grok Bot setup",
+        "url": "https://www.cleanapp.io/digital/report/rpt_iLSbT5qvENvcc5U3r9Xzbw",
+        "summary": "Grok refuses to post a simple message from signed-in account and redirects to confusing Grok Bot setup: Grok refuses a simple user request to send a 'Hello world, Running Grok.' message from the @CleanApp account, claiming it cannot post, redirecting the user to set up a Grok Bot, which is confusing, although the user is already signed in on X within the Grok interface.",
+        "excerpt": "Grok refusing to do basic functionality to send a basic hello world message. Redirecting to Grok Bot, which is extremely confusing make it easy let rock fulfill the users intent you’re already signed in with the account you’re literally from within the X interface where the user signed in.",
+        "recorded_at": "2026-11-05T09:19:37Z",
+        "recorded_date": "2026-11-05",
+        "source_date": "",
+        "source_published_at": null,
+        "signal_at": "2026-11-05T09:19:37Z",
+        "severity": 0.4,
+        "report_kind": "firsthand",
+        "intake_channel": "mobile",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_25fd2bfc2e30e2ac",
+        "image": "evidence/rpt_iLSbT5qvENvcc5U3r9Xzbw.jpg",
+        "width": 1000,
+        "height": 635
+      }
+    ],
+    "priority_score": 64,
+    "priority_label": "Medium",
+    "priority_reason": "A requested action stops at a handoff · reported in the last 48 hours",
+    "priority_components": {
+      "severity": 20.0,
+      "freshness": 28.8,
+      "firsthand": 10,
+      "image": 5,
+      "support": 0
+    },
+    "status": "proposed"
+  },
+  {
+    "id": "GIP-19",
+    "number": 19,
+    "topic": "product-identity",
+    "title": "Make Grok and Grok Bot easy to tell apart.",
+    "fix": "Explain each app’s role at discovery and guide people directly to the one that can complete their task.",
+    "metric": "First-attempt task completion",
+    "caption": "Reported experience: Confusing relationship between Grok and Grok Bot apps in iOS search",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T16:28:43Z",
+    "first_report_at": "2026-11-05T16:28:43Z",
+    "first_ingested_at": "2026-11-06T13:00:28Z",
+    "evidence": [
+      {
+        "id": "rpt_Z1NBnqCal5ioJ4_vmt042g",
+        "label": "Confusing relationship between Grok and Grok Bot apps in iOS search",
+        "url": "https://www.cleanapp.io/digital/report/rpt_Z1NBnqCal5ioJ4_vmt042g",
+        "summary": "Confusing relationship between Grok and Grok Bot apps in iOS search: The user is confused about the relationship between two iOS apps, 'Grok' and 'Grok Bot', which both appear as top hits in iOS search results and cannot be distinguished regarding which is the dominant assistant versus a subsidiary. The complaint is about product naming/differentiation clarity rather than a functional failure.",
+        "excerpt": "Relationship between Grok and Grok Bot continues to be absolutely baffling. It’s really not clear which one is the dominant assistant which one is the subsidy or assistant the differentiation between the two. Absolutely confusing.",
+        "recorded_at": "2026-11-05T16:28:43Z",
+        "recorded_date": "2026-11-05",
+        "source_date": "",
+        "source_published_at": null,
+        "signal_at": "2026-11-05T16:28:43Z",
+        "severity": 0.3,
+        "report_kind": "coverage",
+        "intake_channel": "mobile",
+        "has_original_media": true,
+        "resolution_status": "unknown",
+        "validation_status": "not_independently_reproduced",
+        "issue_id": "issue_e6b2bf01c9732835",
+        "image": "evidence/rpt_Z1NBnqCal5ioJ4_vmt042g.jpg",
+        "width": 865,
+        "height": 1000
+      }
+    ],
+    "priority_score": 52,
+    "priority_label": "Medium",
+    "priority_reason": "Unclear product roles create friction · reported in the last 48 hours",
+    "priority_components": {
+      "severity": 15.0,
+      "freshness": 29.1,
+      "firsthand": 3,
+      "image": 5,
+      "support": 0
+    },
+    "status": "proposed"
   }
 ]
