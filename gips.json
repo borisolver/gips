@@ -86,7 +86,7 @@
     "metric": "First answer → sign-up conversion",
     "created_at": "2026-11-05T08:02:00Z",
     "updated_at": "2026-11-05T08:02:00Z",
-    "priority_score": 54.0,
+    "priority_score": 53.0,
     "priority_label": "Medium",
     "priority_reason": "First answer blocked · 3 source reports",
     "evidence": [
