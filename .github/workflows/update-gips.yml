@@ -38,6 +38,9 @@ jobs:
         run: |
           python3 -m pip install --disable-pip-version-check --only-binary=:all: 'Pillow==13.0.0'
 
+      - name: Test the cloud update timer
+        run: python3 -m unittest discover -s ops/watchdog -v
+
       - name: Sync, build, test, and save the public data
         run: python3 scripts/run_update.py --artifact-dir "$RUNNER_TEMP/gips-pages" --push
 

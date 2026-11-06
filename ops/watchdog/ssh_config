@@ -1,0 +1,12 @@
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile /etc/gips-watchdog/deploy_key
+    IdentitiesOnly yes
+    BatchMode yes
+    StrictHostKeyChecking yes
+    UserKnownHostsFile /etc/gips-watchdog/known_hosts
+    GlobalKnownHostsFile /dev/null
+    ConnectTimeout 10
+    ProxyCommand none
+    ProxyJump none

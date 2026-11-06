@@ -1,0 +1,11 @@
+[Unit]
+Description=Check GIPS freshness every five minutes
+
+[Timer]
+OnActiveSec=1min
+OnUnitActiveSec=5min
+AccuracySec=10s
+Unit=gips-watchdog.service
+
+[Install]
+WantedBy=timers.target

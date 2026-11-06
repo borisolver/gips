@@ -1,0 +1,35 @@
+[Unit]
+Description=Refresh GIPS when its public sync stalls
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=gips-watchdog
+Group=gips-watchdog
+ExecStart=/usr/bin/python3 /opt/gips-watchdog/watchdog.py
+StateDirectory=gips-watchdog
+StateDirectoryMode=0700
+UMask=0077
+TimeoutStartSec=240
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+CapabilityBoundingSet=
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+IPAddressDeny=169.254.169.254/32
+IPAddressDeny=fd00:ec2::254/128
+ReadWritePaths=/var/lib/gips-watchdog
+MemoryMax=256M
+TasksMax=32
+CPUQuota=25%
+Nice=10
+IOSchedulingClass=idle
+
