@@ -177,6 +177,8 @@ def build(output_dir=ROOT):
     checked_at = state.get("last_successful_sync") or ""
     feed = {"version": version, "checked_at": checked_at, "counts": counts, "items": items, "spotlight_html": spotlight, "spotlight_hash": spotlight_hash}
     replacements = {
+        "{{CSS_VERSION}}": hashlib.sha256((ROOT / "styles.css").read_bytes()).hexdigest()[:16],
+        "{{JS_VERSION}}": hashlib.sha256((ROOT / "site.js").read_bytes()).hexdigest()[:16],
         "{{SPOTLIGHT}}": spotlight,
         "{{SPOTLIGHT_HASH}}": spotlight_hash,
         "{{PROPOSALS}}": "".join(item["html"] for item in items),
