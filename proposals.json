@@ -996,7 +996,7 @@
     "priority_reason": "A requested action stops at a handoff · reported in the last 48 hours",
     "priority_components": {
       "severity": 20.0,
-      "freshness": 28.5,
+      "freshness": 28.4,
       "firsthand": 10,
       "image": 5,
       "support": 0
