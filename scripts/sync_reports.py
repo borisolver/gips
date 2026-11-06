@@ -420,13 +420,15 @@ def atomic_write(path, data):
 
 
 def sync(root=ROOT, rows=None, now=None, download_media=True):
-    now = now or datetime.now(timezone.utc)
     proposals = json.loads((root / "proposals.json").read_text())
     state_path = root / "sync-state.json"
     state = json.loads(state_path.read_text()) if state_path.exists() else {}
     rows = fetch_inventory() if rows is None else rows
     if not rows:
         raise ValueError("Empty public inventory")
+    # A report may arrive while pagination is in flight. Compare timestamps
+    # against completion of the fetch, not the beginning of a slow request.
+    now = now or datetime.now(timezone.utc)
     proposals, state, stats = ingest_reports(proposals, state, rows, now)
     assets = collect_media(proposals) if download_media else {}
     for p in proposals:

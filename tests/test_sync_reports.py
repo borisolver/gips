@@ -347,6 +347,26 @@ class DurableSyncTests(unittest.TestCase):
         self.assert_failed_feed_preserves_snapshot(
             [page([report(1, recorded="2099-01-01T00:00:00Z")])])
 
+    def test_report_arriving_during_fetch_is_not_rejected_as_future(self):
+        fetched = False
+
+        class Clock(datetime):
+            @classmethod
+            def now(cls, tz=None):
+                return NOW if fetched else datetime(2026, 11, 6, 11, 59, tzinfo=timezone.utc)
+
+        def inventory():
+            nonlocal fetched
+            fetched = True
+            return [report(1, recorded="2026-11-06T11:59:30Z")]
+
+        with mock.patch.object(sync_reports, "datetime", Clock), \
+                mock.patch.object(sync_reports, "fetch_inventory", side_effect=inventory):
+            stats = sync_reports.sync(self.root, download_media=False)
+        self.assertEqual(stats["new_reports"], 1)
+        self.assertEqual(read_json(self.root / "sync-state.json")["last_successful_sync"],
+                         "2026-11-06T12:00:00Z")
+
     def test_explicit_empty_inventory_does_not_advance_checkpoint(self):
         before = self.snapshot()
         with self.assertRaises(ValueError):
