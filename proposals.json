@@ -943,7 +943,7 @@
         "height": 635
       }
     ],
-    "priority_score": 78,
+    "priority_score": 77,
     "priority_label": "High",
     "priority_reason": "Account setup blocks access · reported in the last 48 hours · 2 source reports",
     "priority_components": {
@@ -991,7 +991,7 @@
         "height": 635
       }
     ],
-    "priority_score": 64,
+    "priority_score": 63,
     "priority_label": "Medium",
     "priority_reason": "A requested action stops at a handoff · reported in the last 48 hours",
     "priority_components": {
