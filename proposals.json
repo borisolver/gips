@@ -948,7 +948,7 @@
     "priority_reason": "Account setup blocks access · reported in the last 48 hours · 2 source reports",
     "priority_components": {
       "severity": 30.0,
-      "freshness": 28.7,
+      "freshness": 28.6,
       "firsthand": 10,
       "image": 5,
       "support": 4
