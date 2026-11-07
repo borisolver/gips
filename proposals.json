@@ -878,7 +878,7 @@
     "priority_reason": "Bot setup and controls fail",
     "priority_components": {
       "severity": 32.5,
-      "freshness": 6.8,
+      "freshness": 6.7,
       "firsthand": 10,
       "image": 0,
       "support": 0
