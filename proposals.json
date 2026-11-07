@@ -945,7 +945,7 @@
     ],
     "priority_score": 77,
     "priority_label": "High",
-    "priority_reason": "Account setup blocks access · reported in the last 48 hours · 2 source reports",
+    "priority_reason": "Account setup blocks access · reported this week · 2 source reports",
     "priority_components": {
       "severity": 30.0,
       "freshness": 28.0,
