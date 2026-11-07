@@ -159,7 +159,7 @@
     "metric": "Successful setup and task completion",
     "created_at": "2026-11-05T08:02:00Z",
     "updated_at": "2026-11-05T08:02:00Z",
-    "priority_score": 50.0,
+    "priority_score": 49.0,
     "priority_label": "Medium",
     "priority_reason": "Bot setup and controls fail",
     "evidence": [
