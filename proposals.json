@@ -993,7 +993,7 @@
     ],
     "priority_score": 63,
     "priority_label": "Medium",
-    "priority_reason": "A requested action stops at a handoff · reported in the last 48 hours",
+    "priority_reason": "A requested action stops at a handoff · reported this week",
     "priority_components": {
       "severity": 20.0,
       "freshness": 28.0,
