@@ -79,26 +79,6 @@
     ]
   },
   {
-    "id": "GIP-01",
-    "number": 1,
-    "title": "Answer first. Upsell second.",
-    "fix": "Let a new user try one complete answer before asking them to sign up.",
-    "metric": "First answer → sign-up conversion",
-    "created_at": "2026-11-05T08:02:00Z",
-    "updated_at": "2026-11-05T08:02:00Z",
-    "priority_score": 53.0,
-    "priority_label": "Medium",
-    "priority_reason": "First answer blocked · 3 source reports",
-    "evidence": [
-      "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
-      "rpt_r2rBlr1tXIzkv7rMn3ofJw",
-      "rpt_ZS9g3VadKr_ndpqo53mJVA"
-    ],
-    "images": [
-      "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg"
-    ]
-  },
-  {
     "id": "GIP-06",
     "number": 6,
     "title": "Make paid access dependable.",
@@ -115,6 +95,26 @@
       "rpt_1AJXP4VhLA65_mSbvxLruQ"
     ],
     "images": []
+  },
+  {
+    "id": "GIP-01",
+    "number": 1,
+    "title": "Answer first. Upsell second.",
+    "fix": "Let a new user try one complete answer before asking them to sign up.",
+    "metric": "First answer → sign-up conversion",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 52.0,
+    "priority_label": "Medium",
+    "priority_reason": "First answer blocked · 3 source reports",
+    "evidence": [
+      "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+      "rpt_r2rBlr1tXIzkv7rMn3ofJw",
+      "rpt_ZS9g3VadKr_ndpqo53mJVA"
+    ],
+    "images": [
+      "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg"
+    ]
   },
   {
     "id": "GIP-19",
