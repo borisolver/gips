@@ -63,7 +63,7 @@
   "schema_version": 1,
   "feed_cutoff": "2026-11-05T00:00:00Z",
   "next_number": 20,
-  "last_successful_sync": "2026-11-07T21:17:55Z",
+  "last_successful_sync": "2026-11-07T21:28:05Z",
   "newest_report_at": "2026-11-05T16:28:43Z",
   "source_inventory_count": 309,
   "proposal_count": 19,
@@ -71,5 +71,5 @@
   "update_interval_minutes": 5,
   "pending_reports": [],
   "image_count": 18,
-  "version": "3fe358a34140349b"
+  "version": "d226b839ce61985c"
 }
