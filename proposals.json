@@ -878,7 +878,7 @@
     "priority_reason": "Bot setup and controls fail",
     "priority_components": {
       "severity": 32.5,
-      "freshness": 5.6,
+      "freshness": 5.5,
       "firsthand": 10,
       "image": 0,
       "support": 0
@@ -996,7 +996,7 @@
     "priority_reason": "A requested action stops at a handoff · reported this week",
     "priority_components": {
       "severity": 20.0,
-      "freshness": 27.0,
+      "freshness": 26.9,
       "firsthand": 10,
       "image": 5,
       "support": 0
