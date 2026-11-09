@@ -141,7 +141,7 @@
     "priority_reason": "Task handoff breaks · 3 source reports",
     "priority_components": {
       "severity": 42.5,
-      "freshness": 5.8,
+      "freshness": 5.7,
       "firsthand": 10,
       "image": 5,
       "support": 8
