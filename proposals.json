@@ -873,7 +873,7 @@
     "created_at": "2026-11-05T08:02:00Z",
     "updated_at": "2026-11-05T08:02:00Z",
     "topic": "bot-setup",
-    "priority_score": 48,
+    "priority_score": 47,
     "priority_label": "Medium",
     "priority_reason": "Bot setup and controls fail",
     "priority_components": {

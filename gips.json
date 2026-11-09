@@ -170,22 +170,6 @@
     ]
   },
   {
-    "id": "GIP-16",
-    "number": 16,
-    "title": "Close the desktop–mobile gaps.",
-    "fix": "Align controls, make built-in skills optional, and fix the API-key setup flow.",
-    "metric": "Successful setup and task completion",
-    "created_at": "2026-11-05T08:02:00Z",
-    "updated_at": "2026-11-05T08:02:00Z",
-    "priority_score": 48.0,
-    "priority_label": "Medium",
-    "priority_reason": "Bot setup and controls fail",
-    "evidence": [
-      "rpt_aM5b1YMDug07my2KI1AMmQ"
-    ],
-    "images": []
-  },
-  {
     "id": "GIP-03",
     "number": 3,
     "title": "Check the facts about people.",
@@ -204,6 +188,22 @@
       "evidence/rpt_YpV5CL6aPvNhcyAjd_BtMg.jpg",
       "evidence/rpt_LXL-Hj9wL2iFkR_TjjjQYA.jpg"
     ]
+  },
+  {
+    "id": "GIP-16",
+    "number": 16,
+    "title": "Close the desktop–mobile gaps.",
+    "fix": "Align controls, make built-in skills optional, and fix the API-key setup flow.",
+    "metric": "Successful setup and task completion",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 47.0,
+    "priority_label": "Medium",
+    "priority_reason": "Bot setup and controls fail",
+    "evidence": [
+      "rpt_aM5b1YMDug07my2KI1AMmQ"
+    ],
+    "images": []
   },
   {
     "id": "GIP-10",
