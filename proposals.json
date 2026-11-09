@@ -54,7 +54,7 @@
     "priority_reason": "First answer blocked · 3 source reports",
     "priority_components": {
       "severity": 22.5,
-      "freshness": 5.6,
+      "freshness": 5.5,
       "firsthand": 10,
       "image": 5,
       "support": 8
