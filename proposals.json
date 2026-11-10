@@ -948,7 +948,7 @@
     "priority_reason": "Account setup blocks access · reported this week · 2 source reports",
     "priority_components": {
       "severity": 30.0,
-      "freshness": 25.0,
+      "freshness": 24.9,
       "firsthand": 10,
       "image": 5,
       "support": 4
@@ -1044,7 +1044,7 @@
     "priority_reason": "Unclear product roles create friction · reported this week",
     "priority_components": {
       "severity": 15.0,
-      "freshness": 25.3,
+      "freshness": 25.2,
       "firsthand": 3,
       "image": 5,
       "support": 0
