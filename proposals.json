@@ -136,7 +136,7 @@
     "created_at": "2026-11-05T08:02:00Z",
     "updated_at": "2026-11-05T08:02:00Z",
     "topic": "handoff",
-    "priority_score": 70,
+    "priority_score": 69,
     "priority_label": "High",
     "priority_reason": "Task handoff breaks · 3 source reports",
     "priority_components": {
