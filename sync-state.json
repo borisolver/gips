@@ -63,7 +63,7 @@
   "schema_version": 1,
   "feed_cutoff": "2026-11-05T00:00:00Z",
   "next_number": 20,
-  "last_successful_sync": "2026-11-11T11:19:43Z",
+  "last_successful_sync": "2026-11-11T11:29:40Z",
   "newest_report_at": "2026-11-05T16:28:43Z",
   "source_inventory_count": 309,
   "proposal_count": 19,
