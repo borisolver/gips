@@ -996,7 +996,7 @@
     "priority_reason": "A requested action stops at a handoff · reported this week",
     "priority_components": {
       "severity": 20.0,
-      "freshness": 24.1,
+      "freshness": 24.0,
       "firsthand": 10,
       "image": 5,
       "support": 0
@@ -1044,7 +1044,7 @@
     "priority_reason": "Unclear product roles create friction · reported this week",
     "priority_components": {
       "severity": 15.0,
-      "freshness": 24.4,
+      "freshness": 24.3,
       "firsthand": 3,
       "image": 5,
       "support": 0
