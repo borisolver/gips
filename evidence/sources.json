@@ -264,5 +264,13 @@
     "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_Z1NBnqCal5ioJ4_vmt042g",
     "has_original_media": true,
     "sha256": "e9c9621a316612b9ba46a239d98278730bfac00ee0e10eeae9a0431b60240386"
+  },
+  {
+    "public_id": "rpt_JB0XePzLRgnQ2zPRv8WKDQ",
+    "source_url": "https://www.cleanapp.io/digital/report/rpt_JB0XePzLRgnQ2zPRv8WKDQ",
+    "local_image_path": "evidence/rpt_JB0XePzLRgnQ2zPRv8WKDQ.jpg",
+    "image_source": "https://live.cleanapp.io/api/v3/reports/rawimage/by-public-id?public_id=rpt_JB0XePzLRgnQ2zPRv8WKDQ",
+    "has_original_media": true,
+    "sha256": "67217268935dbbd5645e97316e77716942bf39094a3ebd318cc9f56a2e8a0fb6"
   }
 ]

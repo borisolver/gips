@@ -32,7 +32,8 @@
     "rpt_gWNCLC-jjDFcZuo2kdwmoA": "GIP-17",
     "rpt_M2Yeoz3lw9RjcXR_X3aFCg": "GIP-17",
     "rpt_iLSbT5qvENvcc5U3r9Xzbw": "GIP-18",
-    "rpt_Z1NBnqCal5ioJ4_vmt042g": "GIP-19"
+    "rpt_Z1NBnqCal5ioJ4_vmt042g": "GIP-19",
+    "rpt_JB0XePzLRgnQ2zPRv8WKDQ": "GIP-20"
   },
   "issue_proposals": {
     "issue_5570e0a2059d463a": "GIP-04",
@@ -58,18 +59,19 @@
     "issue_e0bb60a05fd6b893": "GIP-17",
     "issue_91fe52fe754afa0b": "GIP-17",
     "issue_25fd2bfc2e30e2ac": "GIP-18",
-    "issue_e6b2bf01c9732835": "GIP-19"
+    "issue_e6b2bf01c9732835": "GIP-19",
+    "issue_985d992057bf4c00": "GIP-20"
   },
   "schema_version": 1,
   "feed_cutoff": "2026-11-05T00:00:00Z",
-  "next_number": 20,
-  "last_successful_sync": "2026-11-12T16:18:34Z",
-  "newest_report_at": "2026-11-05T16:28:43Z",
-  "source_inventory_count": 309,
-  "proposal_count": 19,
-  "report_count": 33,
+  "next_number": 21,
+  "last_successful_sync": "2026-11-12T22:19:41Z",
+  "newest_report_at": "2026-11-12T19:42:09Z",
+  "source_inventory_count": 310,
+  "proposal_count": 20,
+  "report_count": 34,
   "update_interval_minutes": 5,
   "pending_reports": [],
-  "image_count": 18,
-  "version": "13aa62b9a6c7fd5b"
+  "image_count": 19,
+  "version": "de37637b676678d6"
 }
