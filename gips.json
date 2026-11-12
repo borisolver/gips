@@ -7,7 +7,7 @@
     "metric": "Successful account setup",
     "created_at": "2026-11-06T13:00:28Z",
     "updated_at": "2026-11-05T09:16:00Z",
-    "priority_score": 73.0,
+    "priority_score": 72.0,
     "priority_label": "High",
     "priority_reason": "Account setup blocks access · reported this week · 2 source reports",
     "evidence": [
@@ -27,7 +27,7 @@
     "metric": "Successful handoffs",
     "created_at": "2026-11-05T08:02:00Z",
     "updated_at": "2026-11-05T08:02:00Z",
-    "priority_score": 69.0,
+    "priority_score": 68.0,
     "priority_label": "High",
     "priority_reason": "Task handoff breaks · 3 source reports",
     "evidence": [
@@ -47,7 +47,7 @@
     "metric": "Completed posting requests",
     "created_at": "2026-11-06T13:00:28Z",
     "updated_at": "2026-11-05T09:19:37Z",
-    "priority_score": 59.0,
+    "priority_score": 58.0,
     "priority_label": "Medium",
     "priority_reason": "A requested action stops at a handoff · reported this week",
     "evidence": [
@@ -121,7 +121,7 @@
     "metric": "First answer → sign-up conversion",
     "created_at": "2026-11-05T08:02:00Z",
     "updated_at": "2026-11-05T08:02:00Z",
-    "priority_score": 49.0,
+    "priority_score": 48.0,
     "priority_label": "Medium",
     "priority_reason": "First answer blocked · 3 source reports",
     "evidence": [
@@ -197,7 +197,7 @@
     "metric": "Successful setup and task completion",
     "created_at": "2026-11-05T08:02:00Z",
     "updated_at": "2026-11-05T08:02:00Z",
-    "priority_score": 45.0,
+    "priority_score": 44.0,
     "priority_label": "Medium",
     "priority_reason": "Bot setup and controls fail",
     "evidence": [
