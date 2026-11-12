@@ -152,24 +152,6 @@
     ]
   },
   {
-    "id": "GIP-19",
-    "number": 19,
-    "title": "Make Grok and Grok Bot easy to tell apart.",
-    "fix": "Explain each app’s role at discovery and guide people directly to the one that can complete their task.",
-    "metric": "First-attempt task completion",
-    "created_at": "2026-11-06T13:00:28Z",
-    "updated_at": "2026-11-05T16:28:43Z",
-    "priority_score": 47.0,
-    "priority_label": "Medium",
-    "priority_reason": "Unclear product roles create friction · reported this week",
-    "evidence": [
-      "rpt_Z1NBnqCal5ioJ4_vmt042g"
-    ],
-    "images": [
-      "evidence/rpt_Z1NBnqCal5ioJ4_vmt042g.jpg"
-    ]
-  },
-  {
     "id": "GIP-03",
     "number": 3,
     "title": "Check the facts about people.",
@@ -187,6 +169,24 @@
     "images": [
       "evidence/rpt_YpV5CL6aPvNhcyAjd_BtMg.jpg",
       "evidence/rpt_LXL-Hj9wL2iFkR_TjjjQYA.jpg"
+    ]
+  },
+  {
+    "id": "GIP-19",
+    "number": 19,
+    "title": "Make Grok and Grok Bot easy to tell apart.",
+    "fix": "Explain each app’s role at discovery and guide people directly to the one that can complete their task.",
+    "metric": "First-attempt task completion",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T16:28:43Z",
+    "priority_score": 46.0,
+    "priority_label": "Medium",
+    "priority_reason": "Unclear product roles create friction · reported this week",
+    "evidence": [
+      "rpt_Z1NBnqCal5ioJ4_vmt042g"
+    ],
+    "images": [
+      "evidence/rpt_Z1NBnqCal5ioJ4_vmt042g.jpg"
     ]
   },
   {

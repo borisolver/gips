@@ -54,7 +54,7 @@
     "priority_reason": "First answer blocked · 3 source reports",
     "priority_components": {
       "severity": 22.5,
-      "freshness": 2.9,
+      "freshness": 2.6,
       "firsthand": 10,
       "image": 5,
       "support": 8
@@ -141,7 +141,7 @@
     "priority_reason": "Task handoff breaks · 3 source reports",
     "priority_components": {
       "severity": 42.5,
-      "freshness": 2.9,
+      "freshness": 2.6,
       "firsthand": 10,
       "image": 5,
       "support": 8
@@ -878,7 +878,7 @@
     "priority_reason": "Bot setup and controls fail",
     "priority_components": {
       "severity": 32.5,
-      "freshness": 2.0,
+      "freshness": 1.7,
       "firsthand": 10,
       "image": 0,
       "support": 0
@@ -948,7 +948,7 @@
     "priority_reason": "Account setup blocks access · reported this week · 2 source reports",
     "priority_components": {
       "severity": 30.0,
-      "freshness": 23.4,
+      "freshness": 23.1,
       "firsthand": 10,
       "image": 5,
       "support": 4
@@ -996,7 +996,7 @@
     "priority_reason": "A requested action stops at a handoff · reported this week",
     "priority_components": {
       "severity": 20.0,
-      "freshness": 23.4,
+      "freshness": 23.1,
       "firsthand": 10,
       "image": 5,
       "support": 0
@@ -1039,12 +1039,12 @@
         "height": 1000
       }
     ],
-    "priority_score": 47,
+    "priority_score": 46,
     "priority_label": "Medium",
     "priority_reason": "Unclear product roles create friction · reported this week",
     "priority_components": {
       "severity": 15.0,
-      "freshness": 23.7,
+      "freshness": 23.4,
       "firsthand": 3,
       "image": 5,
       "support": 0
