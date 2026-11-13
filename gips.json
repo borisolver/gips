@@ -7,7 +7,7 @@
     "metric": "Successful account setup",
     "created_at": "2026-11-06T13:00:28Z",
     "updated_at": "2026-11-05T09:16:00Z",
-    "priority_score": 71.0,
+    "priority_score": 70.0,
     "priority_label": "High",
     "priority_reason": "Account setup blocks access · 2 source reports",
     "evidence": [
@@ -27,7 +27,7 @@
     "metric": "Successful handoffs",
     "created_at": "2026-11-05T08:02:00Z",
     "updated_at": "2026-11-05T08:02:00Z",
-    "priority_score": 67.0,
+    "priority_score": 66.0,
     "priority_label": "High",
     "priority_reason": "Task handoff breaks · 3 source reports",
     "evidence": [
@@ -86,7 +86,7 @@
     "metric": "Completed posting requests",
     "created_at": "2026-11-06T13:00:28Z",
     "updated_at": "2026-11-05T09:19:37Z",
-    "priority_score": 57.0,
+    "priority_score": 56.0,
     "priority_label": "Medium",
     "priority_reason": "A requested action stops at a handoff",
     "evidence": [
@@ -150,26 +150,6 @@
     ]
   },
   {
-    "id": "GIP-01",
-    "number": 1,
-    "title": "Answer first. Upsell second.",
-    "fix": "Let a new user try one complete answer before asking them to sign up.",
-    "metric": "First answer → sign-up conversion",
-    "created_at": "2026-11-05T08:02:00Z",
-    "updated_at": "2026-11-05T08:02:00Z",
-    "priority_score": 47.0,
-    "priority_label": "Medium",
-    "priority_reason": "First answer blocked · 3 source reports",
-    "evidence": [
-      "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
-      "rpt_r2rBlr1tXIzkv7rMn3ofJw",
-      "rpt_ZS9g3VadKr_ndpqo53mJVA"
-    ],
-    "images": [
-      "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg"
-    ]
-  },
-  {
     "id": "GIP-03",
     "number": 3,
     "title": "Check the facts about people.",
@@ -187,6 +167,26 @@
     "images": [
       "evidence/rpt_YpV5CL6aPvNhcyAjd_BtMg.jpg",
       "evidence/rpt_LXL-Hj9wL2iFkR_TjjjQYA.jpg"
+    ]
+  },
+  {
+    "id": "GIP-01",
+    "number": 1,
+    "title": "Answer first. Upsell second.",
+    "fix": "Let a new user try one complete answer before asking them to sign up.",
+    "metric": "First answer → sign-up conversion",
+    "created_at": "2026-11-05T08:02:00Z",
+    "updated_at": "2026-11-05T08:02:00Z",
+    "priority_score": 46.0,
+    "priority_label": "Medium",
+    "priority_reason": "First answer blocked · 3 source reports",
+    "evidence": [
+      "rpt_8uuBMzU2Grlpuz7kcXZCcQ",
+      "rpt_r2rBlr1tXIzkv7rMn3ofJw",
+      "rpt_ZS9g3VadKr_ndpqo53mJVA"
+    ],
+    "images": [
+      "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg"
     ]
   },
   {
