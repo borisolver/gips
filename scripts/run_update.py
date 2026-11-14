@@ -15,7 +15,7 @@ DATA_PATHS = (
 )
 PUBLIC_FILES = (
     "index.html", "styles.css", "site.js", "logo.png", "logo.svg", "gips.json",
-    "feed.json", "sync-state.json", ".nojekyll",
+    "feed.json", "sync-state.json", ".nojekyll", "share/gips-v1.png",
 )
 
 
