@@ -54,7 +54,7 @@
     "priority_reason": "First answer blocked · 3 source reports",
     "priority_components": {
       "severity": 22.5,
-      "freshness": 0.9,
+      "freshness": 0.8,
       "firsthand": 10,
       "image": 5,
       "support": 8
@@ -141,7 +141,7 @@
     "priority_reason": "Task handoff breaks · 3 source reports",
     "priority_components": {
       "severity": 42.5,
-      "freshness": 1.0,
+      "freshness": 0.8,
       "firsthand": 10,
       "image": 5,
       "support": 8
@@ -873,12 +873,12 @@
     "created_at": "2026-11-05T08:02:00Z",
     "updated_at": "2026-11-05T08:02:00Z",
     "topic": "bot-setup",
-    "priority_score": 43,
+    "priority_score": 42,
     "priority_label": "Medium",
     "priority_reason": "Bot setup and controls fail",
     "priority_components": {
       "severity": 32.5,
-      "freshness": 0.0,
+      "freshness": 0,
       "firsthand": 10,
       "image": 0,
       "support": 0
@@ -948,7 +948,7 @@
     "priority_reason": "Account setup blocks access · 2 source reports",
     "priority_components": {
       "severity": 30.0,
-      "freshness": 21.4,
+      "freshness": 21.3,
       "firsthand": 10,
       "image": 5,
       "support": 4
@@ -996,7 +996,7 @@
     "priority_reason": "A requested action stops at a handoff",
     "priority_components": {
       "severity": 20.0,
-      "freshness": 21.4,
+      "freshness": 21.3,
       "firsthand": 10,
       "image": 5,
       "support": 0
@@ -1044,7 +1044,7 @@
     "priority_reason": "Unclear product roles create friction",
     "priority_components": {
       "severity": 15.0,
-      "freshness": 21.7,
+      "freshness": 21.6,
       "firsthand": 3,
       "image": 5,
       "support": 0
@@ -1092,7 +1092,7 @@
     "priority_reason": "New product issue · reported in the last 48 hours",
     "priority_components": {
       "severity": 15.0,
-      "freshness": 28.9,
+      "freshness": 28.7,
       "firsthand": 10,
       "image": 5,
       "support": 0
