@@ -45,6 +45,7 @@ class SharePreviewTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             output = Path(temp)
             builder.build(output)
+            self.assertEqual((output / "index.html").read_bytes(), (ROOT / "index.html").read_bytes())
             head = Head()
             head.feed((output / "index.html").read_text())
         self.assertEqual(head.canonical, URL)
