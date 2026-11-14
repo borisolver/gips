@@ -54,7 +54,7 @@
     "priority_reason": "First answer blocked · 3 source reports",
     "priority_components": {
       "severity": 22.5,
-      "freshness": 0.2,
+      "freshness": 0.1,
       "firsthand": 10,
       "image": 5,
       "support": 8
@@ -141,7 +141,7 @@
     "priority_reason": "Task handoff breaks · 3 source reports",
     "priority_components": {
       "severity": 42.5,
-      "freshness": 0.2,
+      "freshness": 0.1,
       "firsthand": 10,
       "image": 5,
       "support": 8
@@ -948,7 +948,7 @@
     "priority_reason": "Account setup blocks access · 2 source reports",
     "priority_components": {
       "severity": 30.0,
-      "freshness": 20.7,
+      "freshness": 20.6,
       "firsthand": 10,
       "image": 5,
       "support": 4
@@ -996,7 +996,7 @@
     "priority_reason": "A requested action stops at a handoff",
     "priority_components": {
       "severity": 20.0,
-      "freshness": 20.7,
+      "freshness": 20.6,
       "firsthand": 10,
       "image": 5,
       "support": 0
@@ -1044,7 +1044,7 @@
     "priority_reason": "Unclear product roles create friction",
     "priority_components": {
       "severity": 15.0,
-      "freshness": 21.0,
+      "freshness": 20.9,
       "firsthand": 3,
       "image": 5,
       "support": 0
@@ -1092,7 +1092,7 @@
     "priority_reason": "New product issue · reported in the last 48 hours",
     "priority_components": {
       "severity": 15.0,
-      "freshness": 28.1,
+      "freshness": 28.0,
       "firsthand": 10,
       "image": 5,
       "support": 0
