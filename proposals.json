@@ -943,12 +943,12 @@
         "height": 635
       }
     ],
-    "priority_score": 68,
+    "priority_score": 67,
     "priority_label": "High",
     "priority_reason": "Account setup blocks access · 2 source reports",
     "priority_components": {
       "severity": 30.0,
-      "freshness": 18.8,
+      "freshness": 18.4,
       "firsthand": 10,
       "image": 5,
       "support": 4
@@ -991,12 +991,12 @@
         "height": 635
       }
     ],
-    "priority_score": 54,
+    "priority_score": 53,
     "priority_label": "Medium",
     "priority_reason": "A requested action stops at a handoff",
     "priority_components": {
       "severity": 20.0,
-      "freshness": 18.8,
+      "freshness": 18.4,
       "firsthand": 10,
       "image": 5,
       "support": 0
@@ -1044,7 +1044,7 @@
     "priority_reason": "Unclear product roles create friction",
     "priority_components": {
       "severity": 15.0,
-      "freshness": 19.1,
+      "freshness": 18.7,
       "firsthand": 3,
       "image": 5,
       "support": 0
@@ -1092,7 +1092,7 @@
     "priority_reason": "New product issue · reported this week",
     "priority_components": {
       "severity": 15.0,
-      "freshness": 26.2,
+      "freshness": 25.8,
       "firsthand": 10,
       "image": 5,
       "support": 0
