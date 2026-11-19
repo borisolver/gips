@@ -1039,8 +1039,8 @@
         "height": 1000
       }
     ],
-    "priority_score": 40,
-    "priority_label": "Medium",
+    "priority_score": 39,
+    "priority_label": "Watch",
     "priority_reason": "Unclear product roles create friction",
     "priority_components": {
       "severity": 15.0,
