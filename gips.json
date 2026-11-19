@@ -27,8 +27,8 @@
     "metric": "Successful account setup",
     "created_at": "2026-11-06T13:00:28Z",
     "updated_at": "2026-11-05T09:16:00Z",
-    "priority_score": 65.0,
-    "priority_label": "High",
+    "priority_score": 64.0,
+    "priority_label": "Medium",
     "priority_reason": "Account setup blocks access · 2 source reports",
     "evidence": [
       "rpt_gWNCLC-jjDFcZuo2kdwmoA",
@@ -104,7 +104,7 @@
     "metric": "Completed posting requests",
     "created_at": "2026-11-06T13:00:28Z",
     "updated_at": "2026-11-05T09:19:37Z",
-    "priority_score": 51.0,
+    "priority_score": 50.0,
     "priority_label": "Medium",
     "priority_reason": "A requested action stops at a handoff",
     "evidence": [
