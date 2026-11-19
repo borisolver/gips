@@ -1089,7 +1089,7 @@
     ],
     "priority_score": 53,
     "priority_label": "Medium",
-    "priority_reason": "New product issue · reported this week",
+    "priority_reason": "New product issue",
     "priority_components": {
       "severity": 15.0,
       "freshness": 23.0,
