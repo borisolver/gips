@@ -247,7 +247,7 @@
     "metric": "First-attempt task completion",
     "created_at": "2026-11-06T13:00:28Z",
     "updated_at": "2026-11-05T16:28:43Z",
-    "priority_score": 39.0,
+    "priority_score": 38.0,
     "priority_label": "Watch",
     "priority_reason": "Unclear product roles create friction",
     "evidence": [
