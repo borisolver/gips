@@ -991,7 +991,7 @@
         "height": 635
       }
     ],
-    "priority_score": 46,
+    "priority_score": 45,
     "priority_label": "Medium",
     "priority_reason": "A requested action stops at a handoff",
     "priority_components": {

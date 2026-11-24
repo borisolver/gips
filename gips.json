@@ -152,24 +152,6 @@
     ]
   },
   {
-    "id": "GIP-18",
-    "number": 18,
-    "title": "Turn a posting request into a permissioned action.",
-    "fix": "Offer a preview-and-confirm posting action for the connected X account, or a direct handoff that preserves the draft.",
-    "metric": "Completed posting requests",
-    "created_at": "2026-11-06T13:00:28Z",
-    "updated_at": "2026-11-05T09:19:37Z",
-    "priority_score": 46.0,
-    "priority_label": "Medium",
-    "priority_reason": "A requested action stops at a handoff",
-    "evidence": [
-      "rpt_iLSbT5qvENvcc5U3r9Xzbw"
-    ],
-    "images": [
-      "evidence/rpt_iLSbT5qvENvcc5U3r9Xzbw.jpg"
-    ]
-  },
-  {
     "id": "GIP-01",
     "number": 1,
     "title": "Answer first. Upsell second.",
@@ -187,6 +169,24 @@
     ],
     "images": [
       "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg"
+    ]
+  },
+  {
+    "id": "GIP-18",
+    "number": 18,
+    "title": "Turn a posting request into a permissioned action.",
+    "fix": "Offer a preview-and-confirm posting action for the connected X account, or a direct handoff that preserves the draft.",
+    "metric": "Completed posting requests",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T09:19:37Z",
+    "priority_score": 45.0,
+    "priority_label": "Medium",
+    "priority_reason": "A requested action stops at a handoff",
+    "evidence": [
+      "rpt_iLSbT5qvENvcc5U3r9Xzbw"
+    ],
+    "images": [
+      "evidence/rpt_iLSbT5qvENvcc5U3r9Xzbw.jpg"
     ]
   },
   {
