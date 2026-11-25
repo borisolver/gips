@@ -996,7 +996,7 @@
     "priority_reason": "A requested action stops at a handoff",
     "priority_components": {
       "severity": 20.0,
-      "freshness": 10.2,
+      "freshness": 10.1,
       "firsthand": 10,
       "image": 5,
       "support": 0
