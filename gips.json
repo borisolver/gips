@@ -20,26 +20,6 @@
     ]
   },
   {
-    "id": "GIP-17",
-    "number": 17,
-    "title": "Make X-to-Grok setup work in one flow.",
-    "fix": "Carry the signed-in account through one clear linking step, preserve progress, and recover from setup errors.",
-    "metric": "Successful account setup",
-    "created_at": "2026-11-06T13:00:28Z",
-    "updated_at": "2026-11-05T09:16:00Z",
-    "priority_score": 58.0,
-    "priority_label": "Medium",
-    "priority_reason": "Account setup blocks access · 2 source reports",
-    "evidence": [
-      "rpt_gWNCLC-jjDFcZuo2kdwmoA",
-      "rpt_M2Yeoz3lw9RjcXR_X3aFCg"
-    ],
-    "images": [
-      "evidence/rpt_gWNCLC-jjDFcZuo2kdwmoA.jpg",
-      "evidence/rpt_M2Yeoz3lw9RjcXR_X3aFCg.jpg"
-    ]
-  },
-  {
     "id": "GIP-07",
     "number": 7,
     "title": "Give developers time to adapt.",
@@ -58,6 +38,26 @@
     "images": [
       "evidence/rpt_-P5MlZXkYy-y4dW-7mzruA.png",
       "evidence/rpt_NQn0UblM3zliABWeG1LxHQ.jpg"
+    ]
+  },
+  {
+    "id": "GIP-17",
+    "number": 17,
+    "title": "Make X-to-Grok setup work in one flow.",
+    "fix": "Carry the signed-in account through one clear linking step, preserve progress, and recover from setup errors.",
+    "metric": "Successful account setup",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T09:16:00Z",
+    "priority_score": 57.0,
+    "priority_label": "Medium",
+    "priority_reason": "Account setup blocks access · 2 source reports",
+    "evidence": [
+      "rpt_gWNCLC-jjDFcZuo2kdwmoA",
+      "rpt_M2Yeoz3lw9RjcXR_X3aFCg"
+    ],
+    "images": [
+      "evidence/rpt_gWNCLC-jjDFcZuo2kdwmoA.jpg",
+      "evidence/rpt_M2Yeoz3lw9RjcXR_X3aFCg.jpg"
     ]
   },
   {
@@ -179,7 +179,7 @@
     "metric": "Completed posting requests",
     "created_at": "2026-11-06T13:00:28Z",
     "updated_at": "2026-11-05T09:19:37Z",
-    "priority_score": 44.0,
+    "priority_score": 43.0,
     "priority_label": "Medium",
     "priority_reason": "A requested action stops at a handoff",
     "evidence": [
