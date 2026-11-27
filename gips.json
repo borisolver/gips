@@ -48,7 +48,7 @@
     "metric": "Successful account setup",
     "created_at": "2026-11-06T13:00:28Z",
     "updated_at": "2026-11-05T09:16:00Z",
-    "priority_score": 57.0,
+    "priority_score": 56.0,
     "priority_label": "Medium",
     "priority_reason": "Account setup blocks access · 2 source reports",
     "evidence": [
@@ -172,24 +172,6 @@
     ]
   },
   {
-    "id": "GIP-18",
-    "number": 18,
-    "title": "Turn a posting request into a permissioned action.",
-    "fix": "Offer a preview-and-confirm posting action for the connected X account, or a direct handoff that preserves the draft.",
-    "metric": "Completed posting requests",
-    "created_at": "2026-11-06T13:00:28Z",
-    "updated_at": "2026-11-05T09:19:37Z",
-    "priority_score": 43.0,
-    "priority_label": "Medium",
-    "priority_reason": "A requested action stops at a handoff",
-    "evidence": [
-      "rpt_iLSbT5qvENvcc5U3r9Xzbw"
-    ],
-    "images": [
-      "evidence/rpt_iLSbT5qvENvcc5U3r9Xzbw.jpg"
-    ]
-  },
-  {
     "id": "GIP-10",
     "number": 10,
     "title": "Make errors actionable.",
@@ -222,6 +204,24 @@
       "rpt_Zk6kWSl4vZHKjKNTHCvR_w"
     ],
     "images": []
+  },
+  {
+    "id": "GIP-18",
+    "number": 18,
+    "title": "Turn a posting request into a permissioned action.",
+    "fix": "Offer a preview-and-confirm posting action for the connected X account, or a direct handoff that preserves the draft.",
+    "metric": "Completed posting requests",
+    "created_at": "2026-11-06T13:00:28Z",
+    "updated_at": "2026-11-05T09:19:37Z",
+    "priority_score": 42.0,
+    "priority_label": "Medium",
+    "priority_reason": "A requested action stops at a handoff",
+    "evidence": [
+      "rpt_iLSbT5qvENvcc5U3r9Xzbw"
+    ],
+    "images": [
+      "evidence/rpt_iLSbT5qvENvcc5U3r9Xzbw.jpg"
+    ]
   },
   {
     "id": "GIP-16",
