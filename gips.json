@@ -134,24 +134,6 @@
     ]
   },
   {
-    "id": "GIP-20",
-    "number": 20,
-    "title": "Investigate: Confusing UI/UX on Grok: unclear sign-in state and Grok Bot vs. upsell",
-    "fix": "Reproduce the reported behavior, identify the failing step, and add a regression check with the repair.",
-    "metric": "Successful completion of the reported task",
-    "created_at": "2026-11-12T22:19:41Z",
-    "updated_at": "2026-11-12T19:42:09Z",
-    "priority_score": 46.0,
-    "priority_label": "Medium",
-    "priority_reason": "New product issue",
-    "evidence": [
-      "rpt_JB0XePzLRgnQ2zPRv8WKDQ"
-    ],
-    "images": [
-      "evidence/rpt_JB0XePzLRgnQ2zPRv8WKDQ.jpg"
-    ]
-  },
-  {
     "id": "GIP-01",
     "number": 1,
     "title": "Answer first. Upsell second.",
@@ -169,6 +151,24 @@
     ],
     "images": [
       "evidence/rpt_8uuBMzU2Grlpuz7kcXZCcQ.jpg"
+    ]
+  },
+  {
+    "id": "GIP-20",
+    "number": 20,
+    "title": "Investigate: Confusing UI/UX on Grok: unclear sign-in state and Grok Bot vs. upsell",
+    "fix": "Reproduce the reported behavior, identify the failing step, and add a regression check with the repair.",
+    "metric": "Successful completion of the reported task",
+    "created_at": "2026-11-12T22:19:41Z",
+    "updated_at": "2026-11-12T19:42:09Z",
+    "priority_score": 45.0,
+    "priority_label": "Medium",
+    "priority_reason": "New product issue",
+    "evidence": [
+      "rpt_JB0XePzLRgnQ2zPRv8WKDQ"
+    ],
+    "images": [
+      "evidence/rpt_JB0XePzLRgnQ2zPRv8WKDQ.jpg"
     ]
   },
   {
